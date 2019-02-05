@@ -1,0 +1,1 @@
+<import src="/pages/presentIntegral/presentIntegral.vue.wxml" /><template is="4ac58d12" data="{{ ...$root['0'], $root }}"/>

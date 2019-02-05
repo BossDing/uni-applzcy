@@ -1,0 +1,151 @@
+<template name="c069ee40">
+  <view class="_view data-v-3d26e5a1 background">
+    <view class="_view data-v-3d26e5a1 status-contents">
+      <view class="_view data-v-3d26e5a1 status top-view"></view>
+    </view>
+    <view class="_view data-v-3d26e5a1 searchBox">
+      <view class="_view data-v-3d26e5a1 backLast" bindtap="handleProxy" data-eventid="{{'U27-0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" class="_image data-v-3d26e5a1 back"></image>
+      </view>
+      <view class="_view data-v-3d26e5a1 searchCon">
+        <image src="../../static/search.png" class="_image data-v-3d26e5a1 searchImage"></image>
+        <input type="text" placeholder="面膜" class="_input data-v-3d26e5a1" />
+        <image src="../../static/delet.png" class="_image data-v-3d26e5a1 searchImage"></image>
+      </view>
+      <image src="../../static/lattice.png" class="_image data-v-3d26e5a1 selectedStyle"></image>
+    </view>
+    <view class="_view data-v-3d26e5a1 choiceTop">
+      <view class="_view data-v-3d26e5a1 choiceText show">
+        <text class="_text data-v-3d26e5a1">综合</text>
+        <image src="../../static/bottom.png" class="_image data-v-3d26e5a1 choiceImg"></image>
+      </view>
+      <view class="_view data-v-3d26e5a1 choiceText">
+        <text class="_text data-v-3d26e5a1">销量</text>
+      </view>
+      <view class="_view data-v-3d26e5a1 choiceText">
+        <text class="_text data-v-3d26e5a1">价格</text>
+        <view class="_view data-v-3d26e5a1 choiceImg choiceImgbox">
+          <image src="../../static/top.png" class="_image data-v-3d26e5a1 choiceImage"></image>
+          <image src="../../static/bottom.png" class="_image data-v-3d26e5a1 choiceImage"></image>
+        </view>
+      </view>
+      <view class="_view data-v-3d26e5a1 choiceText">
+        <text class="_text data-v-3d26e5a1">逛超市</text>
+      </view>
+      <view class="_view data-v-3d26e5a1 choiceText">
+        <text class="_text data-v-3d26e5a1">筛选</text>
+        <image src="../../static/screen.png" class="_image data-v-3d26e5a1 choiceImg"></image>
+      </view>
+    </view>
+    <view class="_view data-v-3d26e5a1 main">
+      <view class="_view data-v-3d26e5a1 commodity">
+        <view class="_view data-v-3d26e5a1 commodityLeft">
+          <image src="../../static/raw_1521984570.png" class="_image data-v-3d26e5a1 commodityImage"></image>
+        </view>
+        <view class="_view data-v-3d26e5a1 commodityRight">
+          <view class="_view data-v-3d26e5a1 commodityBrand">
+            <image src="../../static/raw_1522223516.png" class="_image data-v-3d26e5a1 brandImage"></image>
+            <text class="_text data-v-3d26e5a1">韩国直采 品牌直采</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 name">
+            <text class="_text data-v-3d26e5a1">3件装|MEDIHEAL 美迪惠尔N.M.F针剂水库保湿面膜 10片/盒</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 type">
+            <text class="_text data-v-3d26e5a1">收敛毛孔|任何肤质|贴片式</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 price">
+            <text class="_text data-v-3d26e5a1 allPrice">￥169</text>
+            <text class="_text data-v-3d26e5a1 onePrice">￥单件56.3</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 commodityType">
+            <text class="_text data-v-3d26e5a1 business">自营</text>
+            <text class="_text data-v-3d26e5a1 special ">特价</text>
+            <text class="_text data-v-3d26e5a1 evaluate">3000条评价</text>
+            <text class="_text data-v-3d26e5a1 goodEvaluate">97.8%好评</text>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-3d26e5a1 commodity">
+        <view class="_view data-v-3d26e5a1 commodityLeft">
+          <image src="../../static/raw_1521984570.png" class="_image data-v-3d26e5a1 commodityImage"></image>
+        </view>
+        <view class="_view data-v-3d26e5a1 commodityRight">
+          <view class="_view data-v-3d26e5a1 commodityBrand">
+            <image src="../../static/raw_1522223516.png" class="_image data-v-3d26e5a1 brandImage"></image>
+            <text class="_text data-v-3d26e5a1">韩国直采 品牌直采</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 name">
+            <text class="_text data-v-3d26e5a1">3件装|MEDIHEAL 美迪惠尔N.M.F针剂水库保湿面膜 10片/盒</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 type">
+            <text class="_text data-v-3d26e5a1">收敛毛孔|任何肤质|贴片式</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 price">
+            <text class="_text data-v-3d26e5a1 allPrice">￥169</text>
+            <text class="_text data-v-3d26e5a1 onePrice">￥单件56.3</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 commodityType">
+            <text class="_text data-v-3d26e5a1 business">自营</text>
+            <text class="_text data-v-3d26e5a1 special ">特价</text>
+            <text class="_text data-v-3d26e5a1 evaluate">3000条评价</text>
+            <text class="_text data-v-3d26e5a1 goodEvaluate">97.8%好评</text>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-3d26e5a1 commodity">
+        <view class="_view data-v-3d26e5a1 commodityLeft">
+          <image src="../../static/raw_1521984570.png" class="_image data-v-3d26e5a1 commodityImage"></image>
+        </view>
+        <view class="_view data-v-3d26e5a1 commodityRight">
+          <view class="_view data-v-3d26e5a1 commodityBrand">
+            <image src="../../static/raw_1522223516.png" class="_image data-v-3d26e5a1 brandImage"></image>
+            <text class="_text data-v-3d26e5a1">韩国直采 品牌直采</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 name">
+            <text class="_text data-v-3d26e5a1">3件装|MEDIHEAL 美迪惠尔N.M.F针剂水库保湿面膜 10片/盒</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 type">
+            <text class="_text data-v-3d26e5a1">收敛毛孔|任何肤质|贴片式</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 price">
+            <text class="_text data-v-3d26e5a1 allPrice">￥169</text>
+            <text class="_text data-v-3d26e5a1 onePrice">￥单件56.3</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 commodityType">
+            <text class="_text data-v-3d26e5a1 business">自营</text>
+            <text class="_text data-v-3d26e5a1 special ">特价</text>
+            <text class="_text data-v-3d26e5a1 evaluate">3000条评价</text>
+            <text class="_text data-v-3d26e5a1 goodEvaluate">97.8%好评</text>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-3d26e5a1 commodity">
+        <view class="_view data-v-3d26e5a1 commodityLeft">
+          <image src="../../static/raw_1521984570.png" class="_image data-v-3d26e5a1 commodityImage"></image>
+        </view>
+        <view class="_view data-v-3d26e5a1 commodityRight">
+          <view class="_view data-v-3d26e5a1 commodityBrand">
+            <image src="../../static/raw_1522223516.png" class="_image data-v-3d26e5a1 brandImage"></image>
+            <text class="_text data-v-3d26e5a1">韩国直采 品牌直采</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 name">
+            <text class="_text data-v-3d26e5a1">3件装|MEDIHEAL 美迪惠尔N.M.F针剂水库保湿面膜 10片/盒</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 type">
+            <text class="_text data-v-3d26e5a1">收敛毛孔|任何肤质|贴片式</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 price">
+            <text class="_text data-v-3d26e5a1 allPrice">￥169</text>
+            <text class="_text data-v-3d26e5a1 onePrice">￥单件56.3</text>
+          </view>
+          <view class="_view data-v-3d26e5a1 commodityType">
+            <text class="_text data-v-3d26e5a1 business">自营</text>
+            <text class="_text data-v-3d26e5a1 special ">特价</text>
+            <text class="_text data-v-3d26e5a1 evaluate">3000条评价</text>
+            <text class="_text data-v-3d26e5a1 goodEvaluate">97.8%好评</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

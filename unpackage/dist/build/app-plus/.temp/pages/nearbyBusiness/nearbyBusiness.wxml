@@ -1,0 +1,1 @@
+<import src="/pages/nearbyBusiness/nearbyBusiness.vue.wxml" /><template is="2fd1d7fe" data="{{ ...$root['0'], $root }}"/>

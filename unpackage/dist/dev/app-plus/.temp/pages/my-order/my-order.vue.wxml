@@ -1,0 +1,247 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<template name="6057f474">
+  <view class="_view data-v-b12f460a content">
+    <view class="_view data-v-b12f460a topTitle">
+      <view class="_view data-v-b12f460a select  {{[!isShowAll ? 'show' : '']}}" bindtap="handleProxy" data-eventid="{{'v9r-0'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-b12f460a">全部</text>
+      </view>
+      <view class="_view data-v-b12f460a select {{[isShowAll ? 'show' : '']}}" bindtap="handleProxy" data-eventid="{{'Cve-1'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-b12f460a">待付款</text>
+      </view>
+      <view class="_view data-v-b12f460a select">
+        <text class="_text data-v-b12f460a">待发货</text>
+      </view>
+      <view class="_view data-v-b12f460a select">
+        <text class="_text data-v-b12f460a">待收货</text>
+      </view>
+      <view class="_view data-v-b12f460a select">
+        <text class="_text data-v-b12f460a">评价</text>
+      </view>
+    </view>
+    <view class="_view data-v-b12f460a item" wx:if="{{!isShowAll}}">
+      <view class="_view data-v-b12f460a commodity">
+        <view class="_view data-v-b12f460a commodityTitle">
+          <text class="_text data-v-b12f460a TitleLeft">2018-12-24</text>
+          <view class="_view data-v-b12f460a commodityTitleRight">
+            <text class="_text data-v-b12f460a">交易成功|</text>
+            <template type="trash" size="25" color="#737373" data="{{...$root['0'], ...$root[$kk+'PeV-0'],$root}}" is="33391514"></template>
+          </view>
+        </view>
+        <view class="_view data-v-b12f460a commodityCon">
+          <view class="_view data-v-b12f460a imgBox">
+            <image src="../../static/raw_1521984570.png" class="_image data-v-b12f460a commodityImg"></image>
+          </view>
+          <view class="_view data-v-b12f460a commodityConText">
+            <view class="_view data-v-b12f460a ConText">
+              <view class="_view data-v-b12f460a commodityName">
+                <text class="_text data-v-b12f460a">3件装 | MEDIHEAL 美迪惠尔 N.M.F针剂水库保湿面膜 10片/盒</text>
+              </view>
+              <view class="_view data-v-b12f460a commodityNum">
+                <text class="_text data-v-b12f460a">￥169.00</text>
+                <text class="_text data-v-b12f460a commodityNumBlock">x 2</text>
+              </view>
+            </view>
+            <view class="_view data-v-b12f460a ConTextBottom">
+              <text class="_text data-v-b12f460a">查看产品使用说明</text>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-b12f460a commodityPrice">
+          <text class="_text data-v-b12f460a">共2件 </text>
+          <text class="_text data-v-b12f460a">应付总额 : </text>
+          <text class="_text data-v-b12f460a priceRed">￥169.00</text>
+        </view>
+        <view class="_view data-v-b12f460a commodityBtn">
+          <text class="_text data-v-b12f460a paybtn">再次购买</text>
+          <text class="_text data-v-b12f460a paybtn">查看物流</text>
+        </view>
+      </view>
+      <view class="_view data-v-b12f460a commodity">
+        <view class="_view data-v-b12f460a commodityTitle">
+          <text class="_text data-v-b12f460a TitleLeft">2018-12-24</text>
+          <view class="_view data-v-b12f460a commodityTitleRight">
+            <text class="_text data-v-b12f460a">待付款</text>
+            <template type="trash" size="25" color="#737373" data="{{...$root['0'], ...$root[$kk+'vzA-1'],$root}}" is="33391514"></template>
+          </view>
+        </view>
+        <view class="_view data-v-b12f460a commodityCon">
+          <view class="_view data-v-b12f460a imgBox">
+            <image src="../../static/raw_1521984152.png" class="_image data-v-b12f460a commodityImg"></image>
+          </view>
+          <view class="_view data-v-b12f460a commodityConText">
+            <view class="_view data-v-b12f460a ConText">
+              <view class="_view data-v-b12f460a commodityName">
+                <text class="_text data-v-b12f460a">SK-II/SK2护肤精华露神仙水75ml+大红瓶15ml+卸妆+洁面 套装</text>
+              </view>
+              <view class="_view data-v-b12f460a commodityNum">
+                <text class="_text data-v-b12f460a">￥720.00</text>
+                <text class="_text data-v-b12f460a commodityNumBlock">x 1</text>
+              </view>
+            </view>
+            <view class="_view data-v-b12f460a ConTextBottom">
+              <text class="_text data-v-b12f460a">查看产品使用说明</text>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-b12f460a commodityPrice">
+          <text class="_text data-v-b12f460a">共1件 </text>
+          <text class="_text data-v-b12f460a">应付总额 : </text>
+          <text class="_text data-v-b12f460a priceRed">￥720.00</text>
+        </view>
+        <view class="_view data-v-b12f460a commodityBtn">
+          <text class="_text data-v-b12f460a paybtn">取消订单</text>
+          <text class="_text data-v-b12f460a paybtn nowPay">立即付款</text>
+        </view>
+      </view>
+      <view class="_view data-v-b12f460a commodity">
+        <view class="_view data-v-b12f460a commodityTitle">
+          <text class="_text data-v-b12f460a TitleLeft">2018-12-24</text>
+          <view class="_view data-v-b12f460a commodityTitleRight">
+            <text class="_text data-v-b12f460a">待发货</text>
+            <template type="trash" size="25" color="#737373" data="{{...$root['0'], ...$root[$kk+'vl0-2'],$root}}" is="33391514"></template>
+          </view>
+        </view>
+        <view class="_view data-v-b12f460a commodityCon">
+          <view class="_view data-v-b12f460a imgBox">
+            <image src="../../static/raw_1521976632.png" class="_image data-v-b12f460a commodityImg"></image>
+          </view>
+          <view class="_view data-v-b12f460a commodityConText">
+            <view class="_view data-v-b12f460a ConText">
+              <view class="_view data-v-b12f460a commodityName">
+                <text class="_text data-v-b12f460a">欧美时尚细跟夜店鞋 2018夏季新款丁字带漆皮铆钉饰凉鞋 淑女范儿 女神必备</text>
+              </view>
+              <view class="_view data-v-b12f460a commodityNum">
+                <text class="_text data-v-b12f460a">￥369.00</text>
+                <text class="_text data-v-b12f460a commodityNumBlock">x 1</text>
+              </view>
+            </view>
+            <view class="_view data-v-b12f460a ConTextBottom">
+              <text class="_text data-v-b12f460a">查看产品使用说明</text>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-b12f460a commodityPrice">
+          <text class="_text data-v-b12f460a">共1件 </text>
+          <text class="_text data-v-b12f460a">应付总额 : </text>
+          <text class="_text data-v-b12f460a priceRed">￥369.00</text>
+        </view>
+        <view class="_view data-v-b12f460a commodityBtn">
+          <text class="_text data-v-b12f460a paybtn">再次购买</text>
+          <text class="_text data-v-b12f460a paybtn">查看物流</text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-b12f460a item" wx:if="{{isShowAll}}">
+      <view class="_view data-v-b12f460a commodity">
+        <view class="_view data-v-b12f460a commodityTitle">
+          <text class="_text data-v-b12f460a TitleLeft">2018-12-24</text>
+          <view class="_view data-v-b12f460a commodityTitleRight">
+            <text class="_text data-v-b12f460a">待付款</text>
+            <template type="trash" size="25" color="#737373" data="{{...$root['0'], ...$root[$kk+'wxr-3'],$root}}" is="33391514"></template>
+          </view>
+        </view>
+        <view class="_view data-v-b12f460a commodityCon">
+          <view class="_view data-v-b12f460a imgBox">
+            <image src="../../static/raw_1521984152.png" class="_image data-v-b12f460a commodityImg"></image>
+          </view>
+          <view class="_view data-v-b12f460a commodityConText">
+            <view class="_view data-v-b12f460a ConText">
+              <view class="_view data-v-b12f460a commodityName">
+                <text class="_text data-v-b12f460a">SK-II/SK2护肤精华露神仙水75ml+大红瓶15ml+卸妆+洁面 套装</text>
+              </view>
+              <view class="_view data-v-b12f460a commodityNum">
+                <text class="_text data-v-b12f460a">￥720.00</text>
+                <text class="_text data-v-b12f460a commodityNumBlock">x 1</text>
+              </view>
+            </view>
+            <view class="_view data-v-b12f460a ConTextBottom">
+              <text class="_text data-v-b12f460a">查看产品使用说明</text>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-b12f460a commodityPrice">
+          <text class="_text data-v-b12f460a">共1件 </text>
+          <text class="_text data-v-b12f460a">应付总额 : </text>
+          <text class="_text data-v-b12f460a priceRed">￥720.00</text>
+        </view>
+        <view class="_view data-v-b12f460a commodityBtn">
+          <text class="_text data-v-b12f460a paybtn">取消订单</text>
+          <text class="_text data-v-b12f460a paybtn nowPay">立即付款</text>
+        </view>
+      </view>
+      <view class="_view data-v-b12f460a wantBuy">
+        <text class="_text data-v-b12f460a wantBuyText">你可能还想买</text>
+      </view>
+      <view class="_view data-v-b12f460a selected">
+        <view class="_view data-v-b12f460a selectedItem">
+          <view class="_view data-v-b12f460a selectedImgBox">
+            <image src="../../static/raw_1521976314.png" class="_image data-v-b12f460a selectedImg"></image>
+          </view>
+          <view class="_view data-v-b12f460a selectedname">
+            <text class="_text data-v-b12f460a">如果你无法简洁的表达你的想法，那只说明你还不够</text>
+          </view>
+          <view class="_view data-v-b12f460a selectedPrice">
+            <text class="_text data-v-b12f460a selectedRed">￥169</text>
+            <text class="_text data-v-b12f460a">| 单件 ￥56.3</text>
+          </view>
+          <view class="_view data-v-b12f460a selectedItemBottom">
+            <text class="_text data-v-b12f460a border">自营</text>
+            <text class="_text data-v-b12f460a background">特价</text>
+            <text class="_text data-v-b12f460a">97.8%好评</text>
+          </view>
+        </view>
+        <view class="_view data-v-b12f460a selectedItem">
+          <view class="_view data-v-b12f460a selectedImgBox">
+            <image src="../../static/raw_1521976348.png" class="_image data-v-b12f460a selectedImg"></image>
+          </view>
+          <view class="_view data-v-b12f460a selectedname">
+            <text class="_text data-v-b12f460a">如果你无法简洁的表达你的想法，那只说明你还不够</text>
+          </view>
+          <view class="_view data-v-b12f460a selectedPrice">
+            <text class="_text data-v-b12f460a selectedRed">￥169</text>
+            <text class="_text data-v-b12f460a">| 单件 ￥56.3</text>
+          </view>
+          <view class="_view data-v-b12f460a selectedItemBottom">
+            <text class="_text data-v-b12f460a border">自营</text>
+            <text class="_text data-v-b12f460a background">特价</text>
+            <text class="_text data-v-b12f460a">97.8%好评</text>
+          </view>
+        </view>
+        <view class="_view data-v-b12f460a selectedItem">
+          <view class="_view data-v-b12f460a selectedImgBox">
+            <image src="../../static/raw_1521976677.png" class="_image data-v-b12f460a selectedImg"></image>
+          </view>
+          <view class="_view data-v-b12f460a selectedname">
+            <text class="_text data-v-b12f460a">如果你无法简洁的表达你的想法，那只说明你还不够</text>
+          </view>
+          <view class="_view data-v-b12f460a selectedPrice">
+            <text class="_text data-v-b12f460a selectedRed">￥169</text>
+            <text class="_text data-v-b12f460a">| 单件 ￥56.3</text>
+          </view>
+          <view class="_view data-v-b12f460a selectedItemBottom">
+            <text class="_text data-v-b12f460a border">自营</text>
+            <text class="_text data-v-b12f460a background">特价</text>
+            <text class="_text data-v-b12f460a">97.8%好评</text>
+          </view>
+        </view>
+        <view class="_view data-v-b12f460a selectedItem">
+          <view class="_view data-v-b12f460a selectedImgBox">
+            <image src="../../static/raw_1521984866.png" class="_image data-v-b12f460a selectedImg"></image>
+          </view>
+          <view class="_view data-v-b12f460a selectedname">
+            <text class="_text data-v-b12f460a">如果你无法简洁的表达你的想法，那只说明你还不够</text>
+          </view>
+          <view class="_view data-v-b12f460a selectedPrice">
+            <text class="_text data-v-b12f460a selectedRed">￥169</text>
+            <text class="_text data-v-b12f460a">| 单件 ￥56.3</text>
+          </view>
+          <view class="_view data-v-b12f460a selectedItemBottom">
+            <text class="_text data-v-b12f460a border">自营</text>
+            <text class="_text data-v-b12f460a background">特价</text>
+            <text class="_text data-v-b12f460a">97.8%好评</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

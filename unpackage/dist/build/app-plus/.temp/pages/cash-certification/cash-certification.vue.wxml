@@ -1,0 +1,35 @@
+<template name="3aab7ee1">
+  <view class="_view data-v-4662f887 content">
+    <view class="_view data-v-4662f887 name">
+      <text class="_text data-v-4662f887 nameLeft">姓名</text>
+      <input type="text" placeholder="  请输入姓名" placeholder-style="font-size:15px" class="_input data-v-4662f887 nameRight" />
+    </view>
+    <view class="_view data-v-4662f887 name">
+      <text class="_text data-v-4662f887 nameLeft">身份证号码</text>
+      <input type="text" placeholder="  请输入身份证号码" placeholder-style="font-size:15px" class="_input data-v-4662f887 nameRight" />
+    </view>
+    <view class="_view data-v-4662f887 note">
+      <text class="_text data-v-4662f887">身份证号码不合法</text>
+    </view>
+    <view class="_view data-v-4662f887 name">
+      <text class="_text data-v-4662f887 nameLeft">住宅地址</text>
+      <view class="_view data-v-4662f887 county">
+        <text class="_text data-v-4662f887">四川省</text>
+        <image src="../../static/lower.png" class="_image data-v-4662f887 point"></image>
+      </view>
+      <view class="_view data-v-4662f887 county">
+        <text class="_text data-v-4662f887">绵阳市</text>
+        <image src="../../static/lower.png" class="_image data-v-4662f887 point"></image>
+      </view>
+      <view class="_view data-v-4662f887 county">
+        <text class="_text data-v-4662f887">涪城区</text>
+        <image src="../../static/lower.png" class="_image data-v-4662f887 point"></image>
+      </view>
+    </view>
+    <view class="_view data-v-4662f887 home">
+      <text class="_text data-v-4662f887 homeLeft"></text>
+      <textarea type="text" placeholder="详细地址：如道路、门牌号、小区、楼栋号、单元室等" placeholder-style="font-size:15px" class="_textarea data-v-4662f887 homeRight" />
+    </view>
+    <button type="primary" class="_button data-v-4662f887 primary">确认提交</button>
+  </view>
+</template>

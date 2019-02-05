@@ -1,0 +1,180 @@
+@import "../../common/vendor.wxss";
+
+.status-contents {
+  height: var(--status-bar-height);
+  background-color: #f4f3f3;
+}
+.top-view {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.status {
+  height: var(--status-bar-height);
+}
+.content.data-v-285519aa {
+  width: 100%;
+}
+.content .title-box.data-v-285519aa {
+  width: 100%;
+  height: 60px;
+  color: #333;
+  font-size: 18px;
+  line-height: 60px;
+  background-color: #f4f3f3;
+}
+.content .title-box .icon.data-v-285519aa {
+  width: 40%;
+}
+.content .buy-box.data-v-285519aa {
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+}
+.content .buy-box .pay-method.data-v-285519aa {
+  width: 95%;
+  height: 30%;
+  color: #ccc;
+  margin: 0 auto;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+  text-align: left !important;
+}
+.content .buy-box .pay-method .num.data-v-285519aa {
+  width: 100%;
+  height: 30%;
+  line-height: 40px;
+  display: block;
+}
+.content .buy-box .pay-method .num_.data-v-285519aa {
+  width: 100%;
+  height: 70%;
+  line-height: 110px;
+  font-size: 28px;
+  display: block;
+}
+.content .buy-box .buy-count.data-v-285519aa {
+  width: 95%;
+  height: 30%;
+  color: #ccc;
+  margin: 0 auto;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+  text-align: left !important;
+}
+.content .buy-box .buy-count .num.data-v-285519aa {
+  width: 100%;
+  height: 30%;
+  line-height: 40px;
+  display: block;
+}
+.content .buy-box .buy-count .num_.data-v-285519aa {
+  width: 100%;
+  height: 70%;
+  line-height: 110px;
+  font-size: 15px;
+  display: block;
+}
+.content .buy-box .need-money.data-v-285519aa {
+  width: 95%;
+  height: 30%;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #ccc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+  text-align: left !important;
+}
+.content .buy-box .need-money .need.data-v-285519aa {
+  width: 100%;
+  height: 30%;
+  line-height: 40px;
+}
+.content .buy-box .need-money .input-box.data-v-285519aa {
+  width: 100%;
+  height: 70%;
+  line-height: 110px;
+  font-size: 28px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+.content .buy-box .need-money .input-box .symbol.data-v-285519aa {
+  color: #333;
+}
+.content .buy-box .need-money .input-box ._input.data-v-285519aa {
+  padding: 10px 0;
+  padding-left: 10px;
+}
+.content .buy-box .more.data-v-285519aa {
+  display: block;
+  width: 95%;
+  color: #ccc;
+  font-size: 14px;
+  margin: 0 auto;
+}
+.content .confirm-btn.data-v-285519aa {
+  width: 95%;
+  height: 55px;
+  color: #fff;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: #f8a0a0;
+  border-radius: 4px;
+}

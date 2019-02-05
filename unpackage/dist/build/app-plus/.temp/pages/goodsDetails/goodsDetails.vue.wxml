@@ -1,0 +1,269 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<template name="3131c6e1">
+  <view class="_view data-v-6ec52172 content">
+    <view class="_view data-v-6ec52172 mianImageBox">
+      <view class="_view data-v-6ec52172 operateBox">
+        <template type="arrowleft" size="30" bindtap="handleProxy" data-eventid="{{'2jm-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'ulj-0'],$root}}" is="391d5dee"></template>
+        <template type="upload" size="30" data="{{...$root['0'], ...$root[$kk+'EnL-1'],$root}}" is="391d5dee"></template>
+      </view>
+      <view class="_view data-v-6ec52172 casual">
+        <swiper class="_swiper data-v-6ec52172 swiper-box" indicator-dots="true" autoplay="true" interval="3000" duration="500">
+          <swiper-item class="_swiper-item data-v-6ec52172 swiper" wx:key="index" key="{{index}}" wx:for="{{itemList}}" wx:for-index="index" wx:for-item="item">
+            <image src="{{item}}" class="_image data-v-6ec52172 image"></image>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class="_view data-v-6ec52172 price">
+        <text class="_text data-v-6ec52172">￥169.00</text>
+        <text class="_text data-v-6ec52172">单价￥56.4</text>
+        <text class="_text data-v-6ec52172">特价</text>
+      </view>
+      <view class="_view data-v-6ec52172 goodsInfor">
+        <view class="_view data-v-6ec52172 discountCard">
+          <text class="_text data-v-6ec52172">V</text>
+          <text class="_text data-v-6ec52172">96折扣</text>
+          <text class="_text data-v-6ec52172">黑卡下单再享96折</text>
+          <text class="_text data-v-6ec52172">开卡 ></text>
+        </view>
+        <view class="_view data-v-6ec52172 goodsdes">
+          <view class="_view data-v-6ec52172 choose-kinds">
+            <text class="_text data-v-6ec52172">1件装 | 单价79元</text>
+            <text class="_text data-v-6ec52172 ex">3件装 | 单件56.4元</text>
+          </view>
+          <view class="_view data-v-6ec52172 goods-name">
+            <text class="_text data-v-6ec52172 self">自营</text>
+            <text clas="all-name" class="_text data-v-6ec52172">3件装 | MEDIHEAL 美迪惠尔 N.M.F针剂量水库保湿面膜 10片/盒</text>
+            <text class="_text data-v-6ec52172 details-des">韩国MBS/KBS/SBS三大电视台共同推荐！赴韩必买！NMF天然保湿因子强力补水，每敷一篇相当于做一次深层补水SPA。收缩毛孔，保湿锁水，晒后镇静都需要它！</text>
+          </view>
+          <view class="_view data-v-6ec52172 other-des">
+            <view class="_view data-v-6ec52172 origin">
+              <image class="_image data-v-6ec52172 img" src="../../static/raw_1522223516.png" mode></image>
+              <text class="_text data-v-6ec52172">韩国品牌</text>
+            </view>
+            <view class="_view data-v-6ec52172 method">
+              <image src="../../static/fly.png" mode class="_image data-v-6ec52172"></image>
+              <text class="_text data-v-6ec52172">跨境商品</text>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-6ec52172 deliverInfor">
+          <view class="_view data-v-6ec52172 to">
+            <text class="_text data-v-6ec52172 first">配送</text>
+            <text class="_text data-v-6ec52172 to">至</text>
+            <text class="_text data-v-6ec52172">广州荔湾区</text>
+            <text class="_text data-v-6ec52172 icon"> ></text>
+          </view>
+          <view class="_view data-v-6ec52172 freight">
+            <text class="_text data-v-6ec52172 first">运费</text>
+            <text class="_text data-v-6ec52172">免运费</text>
+            <text class="_text data-v-6ec52172 icon"> ></text>
+          </view>
+          <view class="_view data-v-6ec52172 intro">
+            <text class="_text data-v-6ec52172 first">说明</text>
+            <text class="_text data-v-6ec52172 des">假一赔十 | 7天无忧退货 | 自营保税仓发货 | 黑卡会员96折</text>
+            <text class="_text data-v-6ec52172 icon"> ></text>
+          </view>
+        </view>
+        <view class="_view data-v-6ec52172 remark">
+          <view class="_view data-v-6ec52172 remark-title">
+            <text class="_text data-v-6ec52172">商品评价 (38925)</text>
+            <text class="_text data-v-6ec52172">好评 98.7%</text>
+            <text class="_text data-v-6ec52172 icon"> ></text>
+          </view>
+          <view class="_view data-v-6ec52172 remark-box">
+            <view class="_view data-v-6ec52172 remark-item">
+              <view class="_view data-v-6ec52172 left">
+                <view class="_view data-v-6ec52172 user-infor">
+                  <image src="../../static/raw_1523146001.jpeg" mode class="_image data-v-6ec52172"></image>
+                  <text class="_text data-v-6ec52172 user-name">用户昵称</text>
+                </view>
+                <text class="_text data-v-6ec52172 thought">心得</text>
+                <text class="_text data-v-6ec52172 thought-des">对于面膜来说，我一直觉得只要做好补水就是好的面膜了，这个面膜补水非常好！</text>
+              </view>
+              <view class="_view data-v-6ec52172 img-box">
+                <image src="../../static/raw_1523146543.jpeg" mode class="_image data-v-6ec52172"></image>
+              </view>
+            </view>
+            <view class="_view data-v-6ec52172 remark-item">
+              <view class="_view data-v-6ec52172 left">
+                <view class="_view data-v-6ec52172 user-infor">
+                  <image src="../../static/raw_1523146001.jpeg" mode class="_image data-v-6ec52172"></image>
+                  <text class="_text data-v-6ec52172 user-name">用户昵称</text>
+                </view>
+                <text class="_text data-v-6ec52172 thought">心得</text>
+                <text class="_text data-v-6ec52172 thought-des">对于面膜来说，我一直觉得只要做好补水就是好的面膜了，这个面膜补水非常好！</text>
+              </view>
+              <view class="_view data-v-6ec52172 img-box">
+                <image src="../../static/raw_1523146543.jpeg" mode class="_image data-v-6ec52172"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-6ec52172 ask">
+          <text class="_text data-v-6ec52172 ask-title">
+            <text class="_text data-v-6ec52172">问大家 (84)</text>
+            <text class="_text data-v-6ec52172 icon"> ></text>
+          </text>
+          <view class="_view data-v-6ec52172 ask-item">
+            <view class="_view data-v-6ec52172 text">
+              <text class="_text data-v-6ec52172 askS">问</text>
+              <text class="_text data-v-6ec52172 askW">为什么和我在韩国买的不一样，面膜布质地...</text>
+              <text class="_text data-v-6ec52172 reply">1个回答</text>
+            </view>
+            <view class="_view data-v-6ec52172 text">
+              <text class="_text data-v-6ec52172 askS">问</text>
+              <text class="_text data-v-6ec52172 askW">这个价格是三盒？</text>
+              <text class="_text data-v-6ec52172 reply">1个回答</text>
+            </view>
+            <view class="_view data-v-6ec52172 text">
+              <text class="_text data-v-6ec52172 askS">问</text>
+              <text class="_text data-v-6ec52172 askW">这个质量到底好不好？请告知一下</text>
+              <text class="_text data-v-6ec52172 reply">1个回答</text>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-6ec52172 brandStore">
+          <view class="_view data-v-6ec52172 brand-title">
+            <image src="../../static/f27da758a86543d7.jpg" mode class="_image data-v-6ec52172"></image>
+            <view class="_view data-v-6ec52172 good-items">
+              <text class="_text data-v-6ec52172">MEDIHEAL 美迪惠尔</text>
+              <text class="_text data-v-6ec52172">在售商品 69件</text>
+            </view>
+            <text class="_text data-v-6ec52172 enter">进入品牌</text>
+            <text class="_text data-v-6ec52172 icon"> ></text>
+          </view>
+          <view class="_view data-v-6ec52172 goodgoods">
+            <view class="_view data-v-6ec52172 recomend-goods-item2" bindtap="handleProxy" data-eventid="{{'GkW-1'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-6ec52172 img-box">
+                <image src="../../static/raw_1521984570.png" mode class="_image data-v-6ec52172"></image>
+              </view>
+              <text class="_text data-v-6ec52172 des">MEDIHEAL美迪尔惠</text>
+              <text class="_text data-v-6ec52172 price">$ 310</text>
+            </view>
+            <view class="_view data-v-6ec52172 recomend-goods-item2" bindtap="handleProxy" data-eventid="{{'MZD-2'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-6ec52172 img-box">
+                <image src="../../static/raw_1523148325.png" mode class="_image data-v-6ec52172"></image>
+              </view>
+              <text class="_text data-v-6ec52172 des">MEDIHEAL美迪尔惠</text>
+              <text class="_text data-v-6ec52172 price">$ 310</text>
+            </view>
+            <view class="_view data-v-6ec52172 recomend-goods-item2" bindtap="handleProxy" data-eventid="{{'9ia-3'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-6ec52172 img-box">
+                <image src="../../static/raw_1523148325.png" mode class="_image data-v-6ec52172"></image>
+              </view>
+              <text class="_text data-v-6ec52172 des">MEDIHEAL美迪尔惠</text>
+              <text class="_text data-v-6ec52172 price">$ 310</text>
+            </view>
+            <view class="_view data-v-6ec52172 recomend-goods-item2" bindtap="handleProxy" data-eventid="{{'J61-4'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-6ec52172 img-box">
+                <image src="../../static/raw_1523148325.png" mode class="_image data-v-6ec52172"></image>
+              </view>
+              <text class="_text data-v-6ec52172 des">MEDIHEAL美迪尔惠</text>
+              <text class="_text data-v-6ec52172 price">$ 310</text>
+            </view>
+          </view>
+          <view class="_view data-v-6ec52172 guessGoodsBox">
+            <view class="_view data-v-6ec52172 topBar">
+              <view class="_view data-v-6ec52172 active">
+                <text class="_text data-v-6ec52172 active">相似推荐</text>
+              </view>
+              <view class="_view data-v-6ec52172 normal">
+                <text class="_text data-v-6ec52172 normal">同类热销排行</text>
+              </view>
+            </view>
+            <view class="_view data-v-6ec52172 goodsContentBox">
+              <view class="_view data-v-6ec52172 goods-item">
+                <image src="../../static/raw_1523148325.png" mode class="_image data-v-6ec52172"></image>
+                <text class="_text data-v-6ec52172 goods-name">美迪尔惠 N.M.F水润保湿面膜-玄彬面</text>
+                <text class="_text data-v-6ec52172 now-price">￥85</text>
+              </view>
+              <view class="_view data-v-6ec52172 goods-item">
+                <image src="../../static/raw_1523148325.png" mode class="_image data-v-6ec52172"></image>
+                <text class="_text data-v-6ec52172 goods-name">美迪尔惠 N.M.F水润保湿面膜-玄彬面</text>
+                <text class="_text data-v-6ec52172 now-price">￥85</text>
+              </view>
+              <view class="_view data-v-6ec52172 goods-item">
+                <image src="../../static/raw_1523148325.png" mode class="_image data-v-6ec52172"></image>
+                <text class="_text data-v-6ec52172 goods-name">美迪尔惠 N.M.F水润保湿面膜-玄彬面</text>
+                <text class="_text data-v-6ec52172 now-price">￥85</text>
+              </view>
+              <view class="_view data-v-6ec52172 goods-item">
+                <image src="../../static/raw_1523148325.png" mode class="_image data-v-6ec52172"></image>
+                <text class="_text data-v-6ec52172 goods-name">美迪尔惠 N.M.F水润保湿面膜-玄彬面</text>
+                <text class="_text data-v-6ec52172 now-price">￥85</text>
+              </view>
+              <view class="_view data-v-6ec52172 goods-item">
+                <image src="../../static/raw_1523148325.png" mode class="_image data-v-6ec52172"></image>
+                <text class="_text data-v-6ec52172 goods-name">美迪尔惠 N.M.F水润保湿面膜-玄彬面</text>
+                <text class="_text data-v-6ec52172 now-price">￥85</text>
+              </view>
+              <view class="_view data-v-6ec52172 goods-item">
+                <image src="../../static/raw_1523148325.png" mode class="_image data-v-6ec52172"></image>
+                <text class="_text data-v-6ec52172 goods-name">美迪尔惠 N.M.F水润保湿面膜-玄彬面</text>
+                <text class="_text data-v-6ec52172 now-price">￥85</text>
+              </view>
+            </view>
+            <view class="_view data-v-6ec52172 button-box">
+              <text class="_text data-v-6ec52172 details">图文详情</text>
+              <text class="_text data-v-6ec52172">购买咨询</text>
+            </view>
+            <view class="_view data-v-6ec52172 imgDetails">
+              <view class="_view data-v-6ec52172 imgDetails-title">
+                <text class="_text data-v-6ec52172">图文详情</text>
+              </view>
+              <view class="_view data-v-6ec52172 productsBox">
+                <text class="_text data-v-6ec52172 infor">产品信息</text>
+                <view class="_view data-v-6ec52172 origin">
+                  <view class="_view data-v-6ec52172 infor-items">
+                    <text class="_text data-v-6ec52172">质地</text>
+                    <text class="_text data-v-6ec52172">水状</text>
+                  </view>
+                  <view class="_view data-v-6ec52172 infor-items">
+                    <text class="_text data-v-6ec52172">品名</text>
+                    <text class="_text data-v-6ec52172">蜂蜜补水保湿面膜</text>
+                  </view>
+                  <view class="_view data-v-6ec52172 infor-items">
+                    <text class="_text data-v-6ec52172">保质期</text>
+                    <text class="_text data-v-6ec52172">3年</text>
+                  </view>
+                  <view class="_view data-v-6ec52172 infor-items">
+                    <text class="_text data-v-6ec52172">试用部位</text>
+                    <text class="_text data-v-6ec52172">面部</text>
+                  </view>
+                  <view class="_view data-v-6ec52172 infor-items">
+                    <text class="_text data-v-6ec52172">试用群体</text>
+                    <text class="_text data-v-6ec52172">中性</text>
+                  </view>
+                  <view class="_view data-v-6ec52172 infor-items">
+                    <text class="_text data-v-6ec52172">功能</text>
+                    <text class="_text data-v-6ec52172">补水温润 湿润</text>
+                  </view>
+                </view>
+              </view>
+              <view class="_view data-v-6ec52172 getMore">
+                <text class="_text data-v-6ec52172">展开</text>
+                <template type="arrowdown" size="30" data="{{...$root['0'], ...$root[$kk+'JI5-3'],$root}}" is="391d5dee"></template>
+              </view>
+              <view class="_view data-v-6ec52172 brandAuth">
+                <text class="_text data-v-6ec52172">品牌</text>
+                <text class="_text data-v-6ec52172">授权</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-6ec52172 shoppingCarBox">
+        <view class="_view data-v-6ec52172 collection">
+          <image src="../../static/like.png" mode class="_image data-v-6ec52172"></image>
+          <text class="_text data-v-6ec52172 collection-text">收藏</text>
+        </view>
+        <view class="_view data-v-6ec52172 shoppingCar">
+          <image src="../../static/shoppingCar.png" mode class="_image data-v-6ec52172"></image>
+          <text class="_text data-v-6ec52172 shoppingCar-text">购物车</text>
+        </view>
+        <text class="_text data-v-6ec52172 add">加入购物车</text>
+        <text class="_text data-v-6ec52172 buy">立即购买</text>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,71 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<template name="6799f63c">
+  <view class="_view data-v-18e22ebd content">
+    <view class="_view data-v-18e22ebd setting-tittle-box" bindtap="handleProxy" data-eventid="{{'cWv-0'}}" data-comkey="{{$k}}">
+      <template type="arrowleft" size="30" data="{{...$root['0'], ...$root[$kk+'uPV-0'],$root}}" is="33391514"></template>
+      <text class="_text data-v-18e22ebd">设置</text>
+    </view>
+    <view class="_view data-v-18e22ebd main-content">
+      <view class="_view data-v-18e22ebd photo-box">
+        <text class="_text data-v-18e22ebd photo">头像</text>
+        <image src="../../static/user.png" mode class="_image data-v-18e22ebd"></image>
+        <template type="arrowright" size="30" data="{{...$root['0'], ...$root[$kk+'ZHG-1'],$root}}" is="33391514"></template>
+      </view>
+      <view class="_view data-v-18e22ebd nickname-box">
+        <text class="_text data-v-18e22ebd nickname">昵称</text>
+        <text class="_text data-v-18e22ebd nickname_">xxxxx</text>
+        <template type="arrowright" size="30" data="{{...$root['0'], ...$root[$kk+'g7b-2'],$root}}" is="33391514"></template>
+      </view>
+      <view class="_view data-v-18e22ebd name-box">
+        <text class="_text data-v-18e22ebd name">姓名</text>
+        <text class="_text data-v-18e22ebd name_">xxxxx</text>
+        <template type="arrowright" size="30" data="{{...$root['0'], ...$root[$kk+'5Sa-3'],$root}}" is="33391514"></template>
+      </view>
+      <view class="_view data-v-18e22ebd ID-box">
+        <text class="_text data-v-18e22ebd ID">身份证号码</text>
+        <text class="_text data-v-18e22ebd">61232XXXXXXXXX0145</text>
+        <template type="arrowright" size="30" data="{{...$root['0'], ...$root[$kk+'wAG-4'],$root}}" is="33391514"></template>
+      </view>
+      <view class="_view data-v-18e22ebd phone-box">
+        <text class="_text data-v-18e22ebd phone">手机号</text>
+        <text class="_text data-v-18e22ebd">13111111111</text>
+        <template type="arrowright" size="30" data="{{...$root['0'], ...$root[$kk+'NOJ-5'],$root}}" is="33391514"></template>
+      </view>
+      <view class="_view data-v-18e22ebd news-box">
+        <text class="_text data-v-18e22ebd news">消息推送设置</text>
+        <view class="_view data-v-18e22ebd btn-box">
+          <text class="_text data-v-18e22ebd btnB"></text>
+          <text class="_text data-v-18e22ebd btnS"></text>
+        </view>
+      </view>
+      <view class="_view data-v-18e22ebd record-box">
+        <text class="_text data-v-18e22ebd record">我的记录</text>
+        <template type="arrowright" size="30" data="{{...$root['0'], ...$root[$kk+'anR-6'],$root}}" is="33391514"></template>
+      </view>
+      <view class="_view data-v-18e22ebd share-box">
+        <view class="_view data-v-18e22ebd share">
+          <text class="_text data-v-18e22ebd share">已分享人数</text>
+        </view>
+        <view class="_view data-v-18e22ebd num">
+          <text class="_text data-v-18e22ebd num">55人</text>
+        </view>
+      </view>
+      <view class="_view data-v-18e22ebd recommend-box" bindtap="handleProxy" data-eventid="{{'WVd-1'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-18e22ebd recommend">推荐给朋友</text>
+        <template type="arrowright" size="30" data="{{...$root['0'], ...$root[$kk+'AVe-7'],$root}}" is="33391514"></template>
+      </view>
+      <view class="_view data-v-18e22ebd alter-box" bindtap="handleProxy" data-eventid="{{'UH6-2'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-18e22ebd alter">修改登录密码</text>
+        <template type="arrowright" size="30" data="{{...$root['0'], ...$root[$kk+'UV0-8'],$root}}" is="33391514"></template>
+      </view>
+      <view class="_view data-v-18e22ebd about-me-box">
+        <text class="_text data-v-18e22ebd about">关于我们</text>
+        <text class="_text data-v-18e22ebd">版本1.0.1</text>
+        <template type="arrowright" size="30" data="{{...$root['0'], ...$root[$kk+'fHZ-9'],$root}}" is="33391514"></template>
+      </view>
+    </view>
+    <view class="_view data-v-18e22ebd log-out-box" bindtap="handleProxy" data-eventid="{{'oVo-3'}}" data-comkey="{{$k}}">
+      <text class="_text data-v-18e22ebd">退出登录</text>
+    </view>
+  </view>
+</template>

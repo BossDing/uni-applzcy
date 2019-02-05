@@ -1,0 +1,206 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<template name="cecc6426">
+  <view class="_view data-v-6f81f68d content">
+    <view class="_view data-v-6f81f68d title">
+      <template type="back" size="30" bindtap="handleProxy" data-eventid="{{'Rlr-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'VrM-0'],$root}}" is="391d5dee"></template>
+      <text class="_text data-v-6f81f68d title-word">日用品频道</text>
+      <view class="_view data-v-6f81f68d operateBox">
+        <template type="redo" size="30" data="{{...$root['0'], ...$root[$kk+'c9y-1'],$root}}" is="391d5dee"></template>
+        <template type="more-filled" size="30" data="{{...$root['0'], ...$root[$kk+'hQU-2'],$root}}" is="391d5dee"></template>
+      </view>
+    </view>
+    <view class="_view data-v-6f81f68d input-box" bindtap="handleProxy" data-eventid="{{'EHd-1'}}" data-comkey="{{$k}}">
+      <template type="search" size="30" data="{{...$root['0'], ...$root[$kk+'fWv-3'],$root}}" is="391d5dee"></template>
+      <input type="text" value="" placeholder="输入关键字搜索" class="_input data-v-6f81f68d input" />
+    </view>
+    <view class="_view data-v-6f81f68d casual">
+      <swiper class="_swiper data-v-6f81f68d swiper-box" indicator-dots="true" autoplay="true" interval="3000" duration="500">
+        <swiper-item class="_swiper-item data-v-6f81f68d swiper" wx:key="index" key="{{index}}" wx:for="{{itemList}}" wx:for-index="index" wx:for-item="item">
+          <image src="{{item}}" class="_image data-v-6f81f68d image"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="_view data-v-6f81f68d navBox">
+      <view class="_view data-v-6f81f68d nav-item" bindtap="handleProxy" data-eventid="{{'A3o-2'}}" data-comkey="{{$k}}">
+        <image src="../../static/raw_1521984866.png" mode class="_image data-v-6f81f68d"></image>
+        <text class="_text data-v-6f81f68d">进口用品</text>
+      </view>
+      <view class="_view data-v-6f81f68d nav-item" bindtap="handleProxy" data-eventid="{{'a6j-3'}}" data-comkey="{{$k}}">
+        <image src="../../static/raw_1523148297.png" mode class="_image data-v-6f81f68d"></image>
+        <text class="_text data-v-6f81f68d">日杂用品</text>
+      </view>
+      <view class="_view data-v-6f81f68d nav-item" bindtap="handleProxy" data-eventid="{{'jj2-4'}}" data-comkey="{{$k}}">
+        <image src="../../static/raw_1523148325.png" mode class="_image data-v-6f81f68d"></image>
+        <text class="_text data-v-6f81f68d">养生保健</text>
+      </view>
+      <view class="_view data-v-6f81f68d nav-item" bindtap="handleProxy" data-eventid="{{'dZM-5'}}" data-comkey="{{$k}}">
+        <image src="../../static/raw_1521976677.png" mode class="_image data-v-6f81f68d"></image>
+        <text class="_text data-v-6f81f68d">家纺针织</text>
+      </view>
+      <view class="_view data-v-6f81f68d nav-item" bindtap="handleProxy" data-eventid="{{'6pH-6'}}" data-comkey="{{$k}}">
+        <image src="../../static/raw_1521984049.png" mode class="_image data-v-6f81f68d"></image>
+        <text class="_text data-v-6f81f68d">口腔护理</text>
+      </view>
+    </view>
+    <view class="_view data-v-6f81f68d goodgoods">
+      <text class="_text data-v-6f81f68d title">今日好货</text>
+      <text class="_text data-v-6f81f68d subTitle">每天10点上新 错过不再有</text>
+      <view class="_view data-v-6f81f68d recomend-goods-item2" bindtap="handleProxy" data-eventid="{{'0XI-7'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-6f81f68d img-box">
+          <image src="../../static/raw_1521984570.png" mode class="_image data-v-6f81f68d"></image>
+        </view>
+        <text class="_text data-v-6f81f68d des">MEDIHEAL美迪尔惠</text>
+        <text class="_text data-v-6f81f68d price">$ 310</text>
+      </view>
+      <view class="_view data-v-6f81f68d recomend-goods-item2" bindtap="handleProxy" data-eventid="{{'LfX-8'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-6f81f68d img-box">
+          <image src="../../static/raw_1523148325.png" mode class="_image data-v-6f81f68d"></image>
+        </view>
+        <text class="_text data-v-6f81f68d des">MEDIHEAL美迪尔惠</text>
+        <text class="_text data-v-6f81f68d price">$ 310</text>
+      </view>
+      <view class="_view data-v-6f81f68d recomend-goods-item2" bindtap="handleProxy" data-eventid="{{'Co8-9'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-6f81f68d img-box">
+          <image src="../../static/raw_1521984866.png" mode class="_image data-v-6f81f68d"></image>
+        </view>
+        <text class="_text data-v-6f81f68d des">爱他美精装奶粉进口配房</text>
+        <text class="_text data-v-6f81f68d price">$ 310</text>
+      </view>
+      <view class="_view data-v-6f81f68d recomend-goods-item2" bindtap="handleProxy" data-eventid="{{'cyS-10'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-6f81f68d img-box">
+          <image src="../../static/raw_1522116065.png" mode class="_image data-v-6f81f68d"></image>
+        </view>
+        <text class="_text data-v-6f81f68d des">爱他美精装奶粉进口配房</text>
+        <text class="_text data-v-6f81f68d price">$ 310</text>
+      </view>
+      <view class="_view data-v-6f81f68d getMoreGoods">
+        <view class="_view data-v-6f81f68d button">查看更多 > </view>
+      </view>
+    </view>
+    <view class="_view data-v-6f81f68d goodgoods special">
+      <text class="_text data-v-6f81f68d title">今日秒杀</text>
+      <text class="_text data-v-6f81f68d subTitle">每天10点上新 秒杀美妆好物</text>
+      <view class="_view data-v-6f81f68d recomend-goods-item2" bindtap="handleProxy" data-eventid="{{'gJY-11'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-6f81f68d img-box">
+          <image src="../../static/raw_1521984570.png" mode class="_image data-v-6f81f68d"></image>
+        </view>
+        <text class="_text data-v-6f81f68d des">MEDIHEAL美迪尔惠</text>
+        <text class="_text data-v-6f81f68d price">$ 310</text>
+      </view>
+      <view class="_view data-v-6f81f68d recomend-goods-item2" bindtap="handleProxy" data-eventid="{{'CDx-12'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-6f81f68d img-box">
+          <image src="../../static/raw_1523148325.png" mode class="_image data-v-6f81f68d"></image>
+        </view>
+        <text class="_text data-v-6f81f68d des">MEDIHEAL美迪尔惠</text>
+        <text class="_text data-v-6f81f68d price">$ 310</text>
+      </view>
+      <view class="_view data-v-6f81f68d recomend-goods-item2" bindtap="handleProxy" data-eventid="{{'knA-13'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-6f81f68d img-box">
+          <image src="../../static/raw_1521984866.png" mode class="_image data-v-6f81f68d"></image>
+        </view>
+        <text class="_text data-v-6f81f68d des">爱他美精装奶粉进口配房</text>
+        <text class="_text data-v-6f81f68d price">$ 310</text>
+      </view>
+      <view class="_view data-v-6f81f68d recomend-goods-item2" bindtap="handleProxy" data-eventid="{{'TIH-14'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-6f81f68d img-box">
+          <image src="../../static/raw_1522116065.png" mode class="_image data-v-6f81f68d"></image>
+        </view>
+        <text class="_text data-v-6f81f68d des">爱他美精装奶粉进口配房</text>
+        <text class="_text data-v-6f81f68d price">$ 310</text>
+      </view>
+      <view class="_view data-v-6f81f68d getMoreGoods">
+        <view class="_view data-v-6f81f68d button">查看更多 > </view>
+      </view>
+    </view>
+    <view class="_view data-v-6f81f68d guess special">
+      <text class="_text data-v-6f81f68d title">猜你喜欢</text>
+      <text class="_text data-v-6f81f68d subTitle">小仙女最爱的美妆好物</text>
+      <view class="_view data-v-6f81f68d guessGoodsBox">
+        <view class="_view data-v-6f81f68d topBar">
+          <text class="_text data-v-6f81f68d active">热销推荐</text>
+          <text class="_text data-v-6f81f68d normal">人气新品</text>
+        </view>
+        <view class="_view data-v-6f81f68d goodsContentBox">
+          <view class="_view data-v-6f81f68d goods-items">
+            <image src="../../static/raw_1523148325.png" mode class="_image data-v-6f81f68d"></image>
+            <view class="_view data-v-6f81f68d des-box">
+              <text class="_text data-v-6f81f68d goods-name">美迪尔惠 N.M.F水润保湿面膜-玄彬面</text>
+              <view class="_view data-v-6f81f68d price">
+                <text class="_text data-v-6f81f68d now-price">￥85</text>
+                <text class="_text data-v-6f81f68d pre-price">￥195</text>
+              </view>
+              <view class="_view data-v-6f81f68d addShoppingCar">
+                <text class="_text data-v-6f81f68d">加入购物车</text>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-6f81f68d goods-items">
+            <image src="../../static/raw_1523148325.png" mode class="_image data-v-6f81f68d"></image>
+            <view class="_view data-v-6f81f68d des-box">
+              <text class="_text data-v-6f81f68d goods-name">美迪尔惠 N.M.F水润保湿面膜-玄彬面</text>
+              <view class="_view data-v-6f81f68d price">
+                <text class="_text data-v-6f81f68d now-price">￥85</text>
+                <text class="_text data-v-6f81f68d pre-price">￥195</text>
+              </view>
+              <view class="_view data-v-6f81f68d addShoppingCar">
+                <text class="_text data-v-6f81f68d">加入购物车</text>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-6f81f68d goods-items">
+            <image src="../../static/raw_1523148325.png" mode class="_image data-v-6f81f68d"></image>
+            <view class="_view data-v-6f81f68d des-box">
+              <text class="_text data-v-6f81f68d goods-name">美迪尔惠 N.M.F水润保湿面膜-玄彬面</text>
+              <view class="_view data-v-6f81f68d price">
+                <text class="_text data-v-6f81f68d now-price">￥85</text>
+                <text class="_text data-v-6f81f68d pre-price">￥195</text>
+              </view>
+              <view class="_view data-v-6f81f68d addShoppingCar">
+                <text class="_text data-v-6f81f68d">加入购物车</text>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-6f81f68d goods-items">
+            <image src="../../static/raw_1523148325.png" mode class="_image data-v-6f81f68d"></image>
+            <view class="_view data-v-6f81f68d des-box">
+              <text class="_text data-v-6f81f68d goods-name">美迪尔惠 N.M.F水润保湿面膜-玄彬面</text>
+              <view class="_view data-v-6f81f68d price">
+                <text class="_text data-v-6f81f68d now-price">￥85</text>
+                <text class="_text data-v-6f81f68d pre-price">￥195</text>
+              </view>
+              <view class="_view data-v-6f81f68d addShoppingCar">
+                <text class="_text data-v-6f81f68d">加入购物车</text>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-6f81f68d goods-items">
+            <image src="../../static/raw_1523148325.png" mode class="_image data-v-6f81f68d"></image>
+            <view class="_view data-v-6f81f68d des-box">
+              <text class="_text data-v-6f81f68d goods-name">美迪尔惠 N.M.F水润保湿面膜-玄彬面</text>
+              <view class="_view data-v-6f81f68d price">
+                <text class="_text data-v-6f81f68d now-price">￥85</text>
+                <text class="_text data-v-6f81f68d pre-price">￥195</text>
+              </view>
+              <view class="_view data-v-6f81f68d addShoppingCar">
+                <text class="_text data-v-6f81f68d">加入购物车</text>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-6f81f68d goods-items">
+            <image src="../../static/raw_1523148325.png" mode class="_image data-v-6f81f68d"></image>
+            <view class="_view data-v-6f81f68d des-box">
+              <text class="_text data-v-6f81f68d goods-name">美迪尔惠 N.M.F水润保湿面膜-玄彬面</text>
+              <view class="_view data-v-6f81f68d price">
+                <text class="_text data-v-6f81f68d now-price">￥85</text>
+                <text class="_text data-v-6f81f68d pre-price">￥195</text>
+              </view>
+              <view class="_view data-v-6f81f68d addShoppingCar">
+                <text class="_text data-v-6f81f68d">加入购物车</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

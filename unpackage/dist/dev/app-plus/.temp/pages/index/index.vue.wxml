@@ -1,0 +1,101 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<import src="/components/nav-center/nav-center.vue.wxml" />
+<import src="/components/goods-show/goods-show.vue.wxml" />
+<template name="02b55cc0">
+  <view class="_view data-v-31d3fe81">
+    <view class="_view data-v-31d3fe81 content">
+      <view class="_view data-v-31d3fe81 title-box">
+        <template type="scan" size="28" color="#8e8e8e" data="{{...$root['0'], ...$root[$kk+'xXV-0'],$root}}" is="33391514"></template>
+        <view class="_view data-v-31d3fe81 input-box" bindtap="handleProxy" data-eventid="{{'JNl-0'}}" data-comkey="{{$k}}">
+          <template type="search" size="30" color="#8e8e8e" data="{{...$root['0'], ...$root[$kk+'OBV-1'],$root}}" is="33391514"></template>
+          <input type="text" value="" placeholder="输入关键字搜索" class="_input data-v-31d3fe81 input" />
+        </view>
+        <template type="chat" size="30" color="#8e8e8e" data="{{...$root['0'], ...$root[$kk+'1RD-2'],$root}}" is="33391514"></template>
+      </view>
+      <view class="_view data-v-31d3fe81 casual">
+        <swiper class="_swiper data-v-31d3fe81 swiper-box" indicator-dots="true" autoplay="true" interval="3000" duration="500">
+          <swiper-item class="_swiper-item data-v-31d3fe81 swiper" wx:key="index" key="{{index}}" wx:for="{{itemList}}" wx:for-index="index" wx:for-item="item">
+            <image src="{{item}}" class="_image data-v-31d3fe81 image"></image>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class="_view data-v-31d3fe81 nav-box">
+        <template data="{{...$root['0'], ...$root[$kk+'sqY-4'],$root}}" is="bb3ab954"></template>
+      </view>
+      <view class="_view data-v-31d3fe81 recomend-box">
+        <view class="_view data-v-31d3fe81 top">
+          <view class="_view data-v-31d3fe81 buy">
+            <text class="_text data-v-31d3fe81 title">限时购</text>
+            <text class="_text data-v-31d3fe81 time-item">00</text>
+            <text class="_text data-v-31d3fe81 time-item">88</text>
+            <text class="_text data-v-31d3fe81 time-item">88</text>
+            <text class="_text data-v-31d3fe81 time-zone">9点场</text>
+            <view class="_view data-v-31d3fe81 goods-list">
+              <image src="../../static/raw_1521976314.png" class="_image data-v-31d3fe81"></image>
+              <text class="_text data-v-31d3fe81 nowSalePrice">￥166</text>
+              <text class="_text data-v-31d3fe81 normalSalePrice">￥288</text>
+            </view>
+            <view class="_view data-v-31d3fe81 goods-list smallBox">
+              <image src="../../static/raw_1521976348.png" class="_image data-v-31d3fe81 smallImage"></image>
+              <text class="_text data-v-31d3fe81 nowSalePrice">￥166</text>
+              <text class="_text data-v-31d3fe81 normalSalePrice">￥288</text>
+            </view>
+          </view>
+          <view class="_view data-v-31d3fe81 new">
+            <text class="_text data-v-31d3fe81 title spectial">每日上新</text>
+            <text class="_text data-v-31d3fe81 time-zone spectial spectialTime">每日9点前折扣超前</text>
+            <view class="_view data-v-31d3fe81 goods-list smallBox">
+              <image src="../../static/raw_1521976632.png" class="_image data-v-31d3fe81 smallImage"></image>
+            </view>
+            <view class="_view data-v-31d3fe81 goods-list smallBox">
+              <image src="../../static/raw_1521976677.png" class="_image data-v-31d3fe81 smallImage"></image>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-31d3fe81 bottom">
+          <template data="{{...$root['0'], ...$root[$kk+'6IB-5'],$root}}" is="3f998c36"></template>
+        </view>
+      </view>
+      <view class="_view data-v-31d3fe81 selected-activities-content">
+        <view class="_view data-v-31d3fe81 selected-activities">
+          <text class="_text data-v-31d3fe81 selected-activities-text">明星精选活动</text>
+        </view>
+        <view class="_view data-v-31d3fe81 recomend-goods-box">
+          <view class="_view data-v-31d3fe81 recomend-goods-item1" wx:key="index" key="{{index}}" wx:for="{{recomendGoods}}" wx:for-index="index" wx:for-item="item">
+            <text class="_text data-v-31d3fe81">{{item.kinds}}</text>
+            <text class="_text data-v-31d3fe81">{{item.infor}}</text>
+            <text class="_text data-v-31d3fe81">{{item.price}}</text>
+            <view class="_view data-v-31d3fe81 img-box">
+              <image src="{{item.img1}}" mode class="_image data-v-31d3fe81"></image>
+              <image src="{{item.img2}}" mode class="_image data-v-31d3fe81"></image>
+            </view>
+          </view>
+          <view class="_view data-v-31d3fe81 recomend-goods-item2">
+            <view class="_view data-v-31d3fe81 img-box">
+              <image src="../../static/raw_1522116070.png" mode class="_image data-v-31d3fe81"></image>
+            </view>
+            <text class="_text data-v-31d3fe81 des">1件装 | 爱他美</text>
+            <text class="_text data-v-31d3fe81 price">$ 310</text>
+          </view>
+          <view class="_view data-v-31d3fe81 recomend-goods-item2">
+            <view class="_view data-v-31d3fe81 img-box">
+              <image src="../../static/raw_1522116062.png" mode class="_image data-v-31d3fe81"></image>
+            </view>
+            <text class="_text data-v-31d3fe81 des">1件装 | 爱他美</text>
+            <text class="_text data-v-31d3fe81 price">$ 310</text>
+          </view>
+          <view class="_view data-v-31d3fe81 recomend-goods-item2">
+            <view class="_view data-v-31d3fe81 img-box">
+              <image src="../../static/raw_1522116065.png" mode class="_image data-v-31d3fe81"></image>
+            </view>
+            <text class="_text data-v-31d3fe81 des">1件装 | 爱他美</text>
+            <text class="_text data-v-31d3fe81 price">$ 310</text>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-31d3fe81 getMore">
+        <text class="_text data-v-31d3fe81">加载更多 >></text>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,293 @@
+<template name="a7eda136">
+  <view class="_view data-v-f04532f6">
+    <view class="_view data-v-f04532f6 status-contents">
+      <view class="_view data-v-f04532f6 status top-view"></view>
+    </view>
+    <view class="_view data-v-f04532f6 header">
+      <image src="../../static/raw_1523520317.png" class="_image data-v-f04532f6 topImg"></image>
+      <view class="_view data-v-f04532f6 searchBox">
+        <view class="_view data-v-f04532f6 backLast" bindtap="handleProxy" data-eventid="{{'pNr-0'}}" data-comkey="{{$k}}">
+          <image src="../../static/brand-pages/left.png" class="_image data-v-f04532f6 back"></image>
+        </view>
+        <view class="_view data-v-f04532f6 searchCon">
+          <image src="../../static/brand-pages/search.png" class="_image data-v-f04532f6 searchImage"></image>
+          <input type="text" placeholder="搜索品牌类商品" class="_input data-v-f04532f6" />
+          <image src="../../static/delet.png" class="_image data-v-f04532f6 deletImage"></image>
+        </view>
+        <image src="../../static/brand-pages/share.png" class="_image data-v-f04532f6 selectedStyle"></image>
+      </view>
+    </view>
+    <view class="_view data-v-f04532f6 brandInformation">
+      <view class="_view data-v-f04532f6 brandInformationTop">
+        <view class="_view data-v-f04532f6 brandInformationImgBox">
+          <image src="../../static/raw_1521991518.png" class="_image data-v-f04532f6 brandInformationImg"></image>
+        </view>
+        <view class="_view data-v-f04532f6 brandInformationNameBox">
+          <view class="_view data-v-f04532f6 brandInformationName">
+            <text class="_text data-v-f04532f6">MEDIHEAL 美</text>
+            <text class="_text data-v-f04532f6 brandBackground">品牌官方授权</text>
+          </view>
+          <view class="_view data-v-f04532f6 brandInformationCountry">
+            <text class="_text data-v-f04532f6">KOR 韩国</text>
+            <text class="_text data-v-f04532f6"> 27.7万粉丝</text>
+          </view>
+        </view>
+        <view class="_view data-v-f04532f6 follow">
+          <text class="_text data-v-f04532f6">+关注</text>
+        </view>
+      </view>
+      <view class="_view data-v-f04532f6 brandInformationButtom">
+        <text class="_text data-v-f04532f6">如果你无法简洁的表达你的想法,那只能说明你还不够了解它.如果你无法间接的表达你的想法.</text>
+        <view class="_view data-v-f04532f6 moreThisBrand">
+          <text class="_text data-v-f04532f6">更多品牌信息</text>
+          <image src="../../static/bottom.png" class="_image data-v-f04532f6 moreLower"></image>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-f04532f6 tab">
+      <view class="_view data-v-f04532f6 tabNav">
+        <view class="_view data-v-f04532f6 tabList">
+          <image src="../../static/brand-pages/home.png" class="_image data-v-f04532f6 tabListImg"></image>
+          <text class="_text data-v-f04532f6 show">首页</text>
+        </view>
+        <view class="_view data-v-f04532f6 tabList">
+          <text class="_text data-v-f04532f6">67</text>
+          <text class="_text data-v-f04532f6">商品</text>
+        </view>
+        <view class="_view data-v-f04532f6 tabList">
+          <text class="_text data-v-f04532f6">37</text>
+          <text class="_text data-v-f04532f6">促销</text>
+        </view>
+        <view class="_view data-v-f04532f6 tabList">
+          <text class="_text data-v-f04532f6">20</text>
+          <text class="_text data-v-f04532f6">种草</text>
+        </view>
+      </view>
+      <view class="_view data-v-f04532f6 tabConBox">
+        <view class="_view data-v-f04532f6 tabItem">
+          <view class="_view data-v-f04532f6 itemTitleTop">
+            <image src="../../static/point.png" class="_image data-v-f04532f6 point"></image>
+            <text class="_text data-v-f04532f6">实事榜单</text>
+            <image src="../../static/point.png" class="_image data-v-f04532f6 point"></image>
+          </view>
+          <text class="_text data-v-f04532f6 itemTitleTopButtom">「每日10点更新品牌热销榜」</text>
+          <view class="_view data-v-f04532f6 tebContent">
+            <view class="_view data-v-f04532f6 realTime">
+              <image src="../../static/raw_1523148325.png" class="_image data-v-f04532f6 realTimeImg"></image>
+              <text class="_text data-v-f04532f6 brandPrice">￥53</text>
+              <text class="_text data-v-f04532f6 brandPoint yellow">1</text>
+            </view>
+            <view class="_view data-v-f04532f6 realTime">
+              <image src="../../static/raw_1523148325.png" class="_image data-v-f04532f6 realTimeImg"></image>
+              <text class="_text data-v-f04532f6 brandPrice">￥53</text>
+              <text class="_text data-v-f04532f6 brandPoint gray">2</text>
+            </view>
+            <view class="_view data-v-f04532f6 realTime">
+              <image src="../../static/raw_1523148325.png" class="_image data-v-f04532f6 realTimeImg"></image>
+              <text class="_text data-v-f04532f6 brandPrice">￥53</text>
+              <text class="_text data-v-f04532f6 brandPoint brown">3</text>
+            </view>
+          </view>
+          <view class="_view data-v-f04532f6 seeAllBox">
+            <text class="_text data-v-f04532f6 seeAll">查看全部</text>
+          </view>
+        </view>
+        <view class="_view data-v-f04532f6 tabItem">
+          <view class="_view data-v-f04532f6 itemTitleTop">
+            <image src="../../static/point.png" class="_image data-v-f04532f6 point"></image>
+            <text class="_text data-v-f04532f6">品牌种草</text>
+            <image src="../../static/point.png" class="_image data-v-f04532f6 point"></image>
+          </view>
+          <text class="_text data-v-f04532f6 itemTitleTopButtom">「达人心得 教你买买买」</text>
+          <view class="_view data-v-f04532f6 bardendTebContent ">
+            <view class="_view data-v-f04532f6 bardendTebCon">
+              <view class="_view data-v-f04532f6 bardendTebConLeft">
+                <image src="../../static/raw_1523146001.jpeg" class="_image data-v-f04532f6 bardendTebConLeftImg"></image>
+              </view>
+              <view class="_view data-v-f04532f6 bardendTebConRight">
+                <text class="_text data-v-f04532f6 bardendTebConName"> MEDIHEAL美迪惠尔胶原蛋...</text>
+                <text class="_text data-v-f04532f6 bardText">如果你无法简洁的表达你的想法那只说明你还不够了解它。如果你无法简洁的表达。表达表达...</text>
+                <view class="_view data-v-f04532f6 bardendTebConBottom">
+                  <view class="_view data-v-f04532f6 bardendTebConBottomLeft">
+                    <image src="../../static/user.png" class="_image data-v-f04532f6 userImg"></image>
+                    <text class="_text data-v-f04532f6">大葡萄Lucy</text>
+                  </view>
+                  <view class="_view data-v-f04532f6 bardendTebConBottomRight">
+                    <image src="../../static/brand-pages/zan.png" class="_image data-v-f04532f6 userImg"></image>
+                    <text class="_text data-v-f04532f6">662</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="_view data-v-f04532f6 bardendTebCon">
+              <view class="_view data-v-f04532f6 bardendTebConLeft">
+                <image src="../../static/raw_1523146001.jpeg" class="_image data-v-f04532f6 bardendTebConLeftImg"></image>
+              </view>
+              <view class="_view data-v-f04532f6 bardendTebConRight">
+                <text class="_text data-v-f04532f6 bardendTebConName"> MEDIHEAL美迪惠尔胶原蛋...</text>
+                <text class="_text data-v-f04532f6 bardText">如果你无法简洁的表达你的想法那只说明你还不够了解它。如果你无法简洁的表达。表达表达...</text>
+                <view class="_view data-v-f04532f6 bardendTebConBottom">
+                  <view class="_view data-v-f04532f6 bardendTebConBottomLeft">
+                    <image src="../../static/user.png" class="_image data-v-f04532f6 userImg"></image>
+                    <text class="_text data-v-f04532f6">大葡萄Lucy</text>
+                  </view>
+                  <view class="_view data-v-f04532f6 bardendTebConBottomRight">
+                    <image src="../../static/brand-pages/zan.png" class="_image data-v-f04532f6 userImg"></image>
+                    <text class="_text data-v-f04532f6">662</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-f04532f6 seeAllBox">
+            <text class="_text data-v-f04532f6 seeAll">查看全部</text>
+          </view>
+        </view>
+        <view class="_view data-v-f04532f6 tabItem">
+          <view class="_view data-v-f04532f6 itemTitleTop">
+            <image src="../../static/point.png" class="_image data-v-f04532f6 point"></image>
+            <text class="_text data-v-f04532f6">精选商品</text>
+            <image src="../../static/point.png" class="_image data-v-f04532f6 point"></image>
+          </view>
+          <text class="_text data-v-f04532f6 itemTitleTopButtom">「精选专属你口味的商品」</text>
+          <view class="_view data-v-f04532f6 selected">
+            <view class="_view data-v-f04532f6 selectedItem">
+              <view class="_view data-v-f04532f6 selectedImgBox">
+                <image src="../../static/raw_1521976314.png" class="_image data-v-f04532f6 selectedImg"></image>
+              </view>
+              <view class="_view data-v-f04532f6 selectedname">
+                <text class="_text data-v-f04532f6">如果你无法简洁的表达你的想法，那只说明你还不够</text>
+              </view>
+              <view class="_view data-v-f04532f6 selectedPrice">
+                <text class="_text data-v-f04532f6 selectedRed">￥169</text>
+                <text class="_text data-v-f04532f6">| 单件 ￥56.3</text>
+              </view>
+              <view class="_view data-v-f04532f6 selectedItemBottom">
+                <text class="_text data-v-f04532f6 border">自营</text>
+                <text class="_text data-v-f04532f6 background">特价</text>
+                <text class="_text data-v-f04532f6">97.8%好评</text>
+              </view>
+            </view>
+            <view class="_view data-v-f04532f6 selectedItem">
+              <view class="_view data-v-f04532f6 selectedImgBox">
+                <image src="../../static/raw_1521976348.png" class="_image data-v-f04532f6 selectedImg"></image>
+              </view>
+              <view class="_view data-v-f04532f6 selectedname">
+                <text class="_text data-v-f04532f6">如果你无法简洁的表达你的想法，那只说明你还不够</text>
+              </view>
+              <view class="_view data-v-f04532f6 selectedPrice">
+                <text class="_text data-v-f04532f6 selectedRed">￥169</text>
+                <text class="_text data-v-f04532f6">| 单件 ￥56.3</text>
+              </view>
+              <view class="_view data-v-f04532f6 selectedItemBottom">
+                <text class="_text data-v-f04532f6 border">自营</text>
+                <text class="_text data-v-f04532f6 background">特价</text>
+                <text class="_text data-v-f04532f6">97.8%好评</text>
+              </view>
+            </view>
+            <view class="_view data-v-f04532f6 selectedItem">
+              <view class="_view data-v-f04532f6 selectedImgBox">
+                <image src="../../static/raw_1521976677.png" class="_image data-v-f04532f6 selectedImg"></image>
+              </view>
+              <view class="_view data-v-f04532f6 selectedname">
+                <text class="_text data-v-f04532f6">如果你无法简洁的表达你的想法，那只说明你还不够</text>
+              </view>
+              <view class="_view data-v-f04532f6 selectedPrice">
+                <text class="_text data-v-f04532f6 selectedRed">￥169</text>
+                <text class="_text data-v-f04532f6">| 单件 ￥56.3</text>
+              </view>
+              <view class="_view data-v-f04532f6 selectedItemBottom">
+                <text class="_text data-v-f04532f6 border">自营</text>
+                <text class="_text data-v-f04532f6 background">特价</text>
+                <text class="_text data-v-f04532f6">97.8%好评</text>
+              </view>
+            </view>
+            <view class="_view data-v-f04532f6 selectedItem">
+              <view class="_view data-v-f04532f6 selectedImgBox">
+                <image src="../../static/raw_1521984866.png" class="_image data-v-f04532f6 selectedImg"></image>
+              </view>
+              <view class="_view data-v-f04532f6 selectedname">
+                <text class="_text data-v-f04532f6">如果你无法简洁的表达你的想法，那只说明你还不够</text>
+              </view>
+              <view class="_view data-v-f04532f6 selectedPrice">
+                <text class="_text data-v-f04532f6 selectedRed">￥169</text>
+                <text class="_text data-v-f04532f6">| 单件 ￥56.3</text>
+              </view>
+              <view class="_view data-v-f04532f6 selectedItemBottom">
+                <text class="_text data-v-f04532f6 border">自营</text>
+                <text class="_text data-v-f04532f6 background">特价</text>
+                <text class="_text data-v-f04532f6">97.8%好评</text>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-f04532f6 seeAllBox">
+            <text class="_text data-v-f04532f6 seeAll">查看全部</text>
+          </view>
+        </view>
+        <view class="_view data-v-f04532f6 like">
+          <view class="_view data-v-f04532f6 likeTitle">
+            <text class="_text data-v-f04532f6">喜欢该品牌的人还喜欢</text>
+          </view>
+          <view class="_view data-v-f04532f6 likebrand">
+            <view class="_view data-v-f04532f6 likeBrandTitle">
+              <view class="_view data-v-f04532f6 likeName">
+                <view class="_view data-v-f04532f6 likeTitleLeft">
+                  <image src="../../static/f27da758a86543d7.jpg" class="_image data-v-f04532f6 likeImg"></image>
+                </view>
+                <view class="_view data-v-f04532f6 likeTitleRight">
+                  <text class="_text data-v-f04532f6 likeBrandName">SNP</text>
+                  <image src="../../static/raw_1523200004.png" class="_image data-v-f04532f6 likeContryImg"></image>
+                  <text class="_text data-v-f04532f6">美国</text>
+                </view>
+              </view>
+              <view class="_view data-v-f04532f6 intoBrand">
+                <text class="_text data-v-f04532f6">进入品牌 ></text>
+              </view>
+            </view>
+            <view class="_view data-v-f04532f6 likeContent">
+              <view class="_view data-v-f04532f6 likeItem">
+                <view class="_view data-v-f04532f6 likeImgBox">
+                  <image src="../../static/raw_1523148297.png" class="_image data-v-f04532f6 kikeImg"></image>
+                </view>
+                <view class="_view data-v-f04532f6 likeItemCon">
+                  <text class="_text data-v-f04532f6">美迪惠尔 N.M.F针剂水库保湿面水...</text>
+                  <view class="_view data-v-f04532f6 likeItemText">
+                    <text class="_text data-v-f04532f6">￥310</text>
+                    <text class="_text data-v-f04532f6 decoration">￥159</text>
+                  </view>
+                </view>
+              </view>
+              <view class="_view data-v-f04532f6 likeItem">
+                <view class="_view data-v-f04532f6 likeImgBox">
+                  <image src="../../static/raw_1523148297.png" class="_image data-v-f04532f6 kikeImg"></image>
+                </view>
+                <view class="_view data-v-f04532f6 likeItemCon">
+                  <text class="_text data-v-f04532f6">美迪惠尔 N.M.F针剂水库保湿面水...</text>
+                  <view class="_view data-v-f04532f6 likeItemText">
+                    <text class="_text data-v-f04532f6">￥310</text>
+                    <text class="_text data-v-f04532f6 decoration">￥159</text>
+                  </view>
+                </view>
+              </view>
+              <view class="_view data-v-f04532f6 likeItem">
+                <view class="_view data-v-f04532f6 likeImgBox">
+                  <image src="../../static/raw_1523148297.png" class="_image data-v-f04532f6 kikeImg"></image>
+                </view>
+                <view class="_view data-v-f04532f6 likeItemCon">
+                  <text class="_text data-v-f04532f6">美迪惠尔 N.M.F针剂水库保湿面水...</text>
+                  <view class="_view data-v-f04532f6 likeItemText">
+                    <text class="_text data-v-f04532f6">￥310</text>
+                    <text class="_text data-v-f04532f6 decoration">￥159</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-f04532f6 bottom">
+          <text class="_text data-v-f04532f6">已经到底啦~</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

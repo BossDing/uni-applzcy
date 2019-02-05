@@ -1,0 +1,13 @@
+<template name="76751c94">
+  <view class="_view data-v-721f175b content">
+    <view class="_view data-v-721f175b phoneNumber">
+      <view class="_view data-v-721f175b phoneNumberTitle">
+        <text class="_text data-v-721f175b">+86</text>
+      </view>
+      <input type="text" class="_input data-v-721f175b input" placeholder="请输入手机号" placeholder-style="font-size:26upx" />
+    </view>
+    <view class="_view data-v-721f175b active">
+      <button type="primary" class="_button data-v-721f175b activeBtn" bindtap="handleProxy" data-eventid="{{'ION-0'}}" data-comkey="{{$k}}">下一步</button>
+    </view>
+  </view>
+</template>

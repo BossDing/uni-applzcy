@@ -1,0 +1,2 @@
+<import src="./brand-pages.vue.wxml" />
+    <template is="5ecb269a" data="{{ ...$root['0'], $root }}"/>

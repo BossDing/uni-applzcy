@@ -1,0 +1,365 @@
+@import "../../common/vendor.wxss";
+
+.content.data-v-0bbe8eca {
+  overflow: hidden;
+  color: 333;
+}
+.content .topBox.data-v-0bbe8eca {
+  background: #a3162e;
+  height: 400rpx;
+}
+.content .topBox .setUp.data-v-0bbe8eca {
+  text-align: right;
+}
+.content .topBox .setUp .gear.data-v-0bbe8eca {
+  margin: 40rpx 10rpx;
+  width: 60rpx;
+  height: 60rpx;
+  color: #fff;
+}
+.content .topBox .setUp .chatboxes.data-v-0bbe8eca {
+  margin: 40rpx 10rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.content .topBox .user.data-v-0bbe8eca {
+  margin-top: 200rpx;
+  width: 90%;
+  height: 380rpx;
+  background: #121212;
+  margin: 0 auto;
+  border-radius: 20rpx;
+  position: relative;
+}
+.content .topBox .user .userInfor.data-v-0bbe8eca {
+  background: #fff;
+  border-radius: 20rpx;
+  width: 100%;
+  height: 300rpx;
+  text-align: center;
+  position: relative;
+}
+.content .topBox .user .userInfor .userImg.data-v-0bbe8eca {
+  position: absolute;
+  top: -50rpx;
+  left: 50rpx;
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+}
+.content .topBox .user .userInfor .userNmae.data-v-0bbe8eca {
+  display: block;
+  padding: 20rpx 0;
+}
+.content .topBox .user .userInfor .collectionBox.data-v-0bbe8eca {
+  margin-top: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  color: #333;
+  font-size: 30rpx;
+}
+.content .topBox .user .userInfor .collectionBox .userCon.data-v-0bbe8eca {
+  width: 25%;
+  text-align: center;
+  border-left: 1px solid #333;
+}
+.content .topBox .user .userInfor .collectionBox .userCon .topNum.data-v-0bbe8eca {
+  display: block;
+  font-weight: 600;
+  color: #6b6b6b 100%;
+}
+.content .topBox .user .userInfor .collectionBox .userCon .userContext.data-v-0bbe8eca {
+  font-size: 25rpx;
+  color: #b3b3b3;
+}
+.content .topBox .user .goldVipImage.data-v-0bbe8eca {
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  bottom: 20rpx;
+  left: 20rpx;
+}
+.content .topBox .user .goldVip.data-v-0bbe8eca {
+  position: absolute;
+  bottom: 20rpx;
+  left: 80rpx;
+  color: #e3d7bf;
+  font-size: 28rpx;
+  font-weight: 600;
+}
+.content .myOrder.data-v-0bbe8eca {
+  width: 100%;
+  height: 200rpx;
+  padding-top: 200rpx;
+}
+.content .myOrder .orderTitle.data-v-0bbe8eca {
+  margin: 0 40rpx;
+  border-bottom: 1rpx solid #b3b3b3;
+  padding-bottom: 20rpx;
+  color: #333;
+  font-size: 26rpx;
+}
+.content .myOrder .orderTitle .orderTitleRight.data-v-0bbe8eca {
+  color: #b3b3b3;
+  float: right;
+}
+.content .myOrder .orderContentBox.data-v-0bbe8eca {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  padding: 20rpx 0;
+}
+.content .myOrder .orderContentBox .orderContent.data-v-0bbe8eca {
+  text-align: center;
+  width: 20%;
+  font-size: 25rpx;
+}
+.content .myOrder .orderContentBox .orderContent .orderImage.data-v-0bbe8eca {
+  margin: 5rpx auto;
+  display: block;
+  width: 50rpx;
+  height: 50rpx;
+}
+.content .myOrder .orderContentBox .orderContent .orderText.data-v-0bbe8eca {
+  color: #5c5c5c 100%;
+  font-weight: 500;
+}
+.content .advertisement.data-v-0bbe8eca {
+  width: 100%;
+  height: 150rpx;
+}
+.content .advertisement .advertisementImage.data-v-0bbe8eca {
+  width: 100%;
+  height: 100%;
+}
+.content .myService.data-v-0bbe8eca {
+  font-size: 28rpx;
+}
+.content .myService .myServiceTitle.data-v-0bbe8eca {
+  display: block;
+  margin-left: 40rpx;
+  margin-top: 50rpx;
+  margin-bottom: 20rpx;
+  font-weight: 600;
+  font-size: 30rpx;
+}
+.content .myService .modularTitleBox.data-v-0bbe8eca {
+  border-bottom: 1rpx solid #d3d3d3;
+  border-top: 1rpx solid #d3d3d3;
+}
+.content .myService .modularTitleBox .modularTitle.data-v-0bbe8eca {
+  padding: 5rpx 0;
+  display: block;
+  margin-left: 40rpx;
+  font-weight: 600;
+  width: 100%;
+  color: #ae9999;
+}
+.content .myService .serviceBox.data-v-0bbe8eca {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.content .myService .serviceBox .modular.data-v-0bbe8eca {
+  width: 33%;
+  height: 100%;
+  margin: 40rpx 0;
+  display: inline-block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.content .myService .serviceBox .modular .serviceImageBox.data-v-0bbe8eca {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.content .myService .serviceBox .modular .serviceImageBox .serviceImage.data-v-0bbe8eca {
+  width: 50rpx;
+  height: 50rpx;
+}
+.content .myService .serviceBox .modular .purple.data-v-0bbe8eca {
+  background: #a589e0;
+}
+.content .myService .serviceBox .modular .orange.data-v-0bbe8eca {
+  background: #f1a161;
+}
+.content .myService .serviceBox .modular .yellow.data-v-0bbe8eca {
+  background: #edd764;
+}
+.content .myService .serviceBox .modular .red.data-v-0bbe8eca {
+  background: #f25422;
+}
+.content .myService .serviceBox .modular .green.data-v-0bbe8eca {
+  background: #a6c979;
+}
+.content .myService .serviceBox .modular .balance.data-v-0bbe8eca {
+  display: block;
+}
+.content .myService .serviceBox .modular .balanceName.data-v-0bbe8eca {
+  color: #bbb;
+}
+.content .myService .sginInBox.data-v-0bbe8eca {
+  width: 100%;
+  height: 170rpx;
+  border-bottom: 1rpx solid #d3d3d3;
+  border-top: 1rpx solid #d3d3d3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  font-size: 28rpx;
+}
+.content .myService .sginInBox .sginInCon.data-v-0bbe8eca {
+  width: 20%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.content .myService .sginInBox .sginInCon .sginInImage.data-v-0bbe8eca {
+  display: block;
+  width: 70rpx;
+  height: 70rpx;
+}
+.content .brandDynamics.data-v-0bbe8eca {
+  font-size: 28rpx;
+  padding: 0 40rpx;
+}
+.content .brandDynamics .brandTitle.data-v-0bbe8eca {
+  margin-top: 50rpx;
+  padding-bottom: 20rpx;
+  text-align: center;
+  width: 100%;
+  font-size: 30rpx;
+  font-weight: 600;
+  border-bottom: 1px solid #d3d3d3;
+}
+.content .brandDynamics .brandTitle .brandTitleImage.data-v-0bbe8eca {
+  width: 20rpx;
+  height: 20rpx;
+}
+.content .brandDynamics .brandBox.data-v-0bbe8eca {
+  width: 100%;
+  height: 250rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  border-bottom: 1px solid #d3d3d3;
+}
+.content .brandDynamics .brandBox .brandCon.data-v-0bbe8eca {
+  height: 100%;
+  width: 25%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.content .brandDynamics .brandBox .brandCon .brandLeftImage.data-v-0bbe8eca {
+  box-sizing: border-box;
+  height: 100rpx;
+  width: 100rpx;
+  border: 1rpx solid #e3e3e3;
+}
+.content .brandDynamics .brandBox .brandCon .brandName.data-v-0bbe8eca {
+  font-size: 28rpx;
+  font-weight: 550;
+  display: block;
+}
+.content .brandDynamics .brandBox .brandCon .promotion.data-v-0bbe8eca {
+  display: block;
+  padding: 0 8rpx;
+  border-radius: 20rpx;
+  color: #d62f2f;
+  border: 1rpx solid #d62f2f;
+}
+.content .brandDynamics .brandBox .brandImage.data-v-0bbe8eca {
+  width: 150rpx;
+  height: 200rpx;
+}
+.content .brandDynamics .more.data-v-0bbe8eca {
+  text-align: center;
+  color: #999;
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+}

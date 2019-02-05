@@ -1,0 +1,47 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<template name="367787c3">
+  <view class="_view data-v-0d5fb063">
+    <view class="_view data-v-0d5fb063 status-contents">
+      <view class="_view data-v-0d5fb063 status top-view"></view>
+    </view>
+    <view class="_view data-v-0d5fb063 myWallet">
+      <view class="_view data-v-0d5fb063 myWalletTitle">
+        <view class="_view data-v-0d5fb063 backBtn" bindtap="handleProxy" data-eventid="{{'Zsq-0'}}" data-comkey="{{$k}}">
+          <template type="back" size="30" color="#fff" data="{{...$root['0'], ...$root[$kk+'lCv-0'],$root}}" is="391d5dee"></template>
+        </view>
+        <text class="_text data-v-0d5fb063 myWalletTitleText">我的钱包</text>
+      </view>
+      <view class="_view data-v-0d5fb063 quotaBox">
+        <text class="_text data-v-0d5fb063 money">3000</text>
+        <text class="_text data-v-0d5fb063 allMoney">预付款总额</text>
+        <view class="_view data-v-0d5fb063 recharge">
+          <image src="../../static/money.png" class="_image data-v-0d5fb063 rechargeImg"></image>
+          <text class="_text data-v-0d5fb063 rechargeText">充值</text>
+        </view>
+      </view>
+      <view class="_view data-v-0d5fb063 detailedBox">
+        <view class="_view data-v-0d5fb063 detailed">
+          <text class="_text data-v-0d5fb063 detailedLfet">账单明细</text>
+          <view class="_view data-v-0d5fb063 detailedRight">
+            <image src="../../static/Arrow_right02.png" class="_image data-v-0d5fb063 detailedRightImg"></image>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-0d5fb063 payMode">
+        <view class="_view data-v-0d5fb063 payModeTitle">
+          <text class="_text data-v-0d5fb063">请选择支付方式</text>
+        </view>
+        <view class="_view data-v-0d5fb063 alipay {{[isAli ? 'active' : '']}}" bindtap="handleProxy" data-eventid="{{'62K-1'}}" data-comkey="{{$k}}">
+          <image src="../../static/ali_pay.png" class="_image data-v-0d5fb063 payImg"></image>
+          <text class="_text data-v-0d5fb063">支付宝</text>
+          <image wx:if="{{isAli}}" class="_image data-v-0d5fb063 select" src="../../static/choose.png" mode></image>
+        </view>
+        <view class="_view data-v-0d5fb063 WeChat {{[isWeCaht ? 'active' : '']}}" bindtap="handleProxy" data-eventid="{{'TMG-2'}}" data-comkey="{{$k}}">
+          <image src="../../static/wechat.png" class="_image data-v-0d5fb063 payImg"></image>
+          <text class="_text data-v-0d5fb063">微信支付</text>
+          <image wx:if="{{isWeCaht}}" class="_image data-v-0d5fb063 select" src="../../static/choose.png" mode></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

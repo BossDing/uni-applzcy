@@ -1,0 +1,249 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false //禁用原生导航栏
+                }
+            }
+        },
+        {
+            "path" : "pages/search/search",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false //禁用原生导航栏
+                }
+            }
+        },
+        {
+            "path" : "pages/shoppingCar/shoppingCar",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false //禁用原生导航栏
+                }
+            }
+        },
+        {
+            "path" : "pages/me/me",
+            "style" : {
+                "navigationBarTitleText" : "个人中心"
+            }
+        },
+        {
+            "path" : "pages/nearbyBusiness/nearbyBusiness",
+            "style" : {
+                "navigationBarTitleText" : "附近商家"
+            }
+        },
+        {
+            "path" : "pages/news/news",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false //禁用原生导航栏
+                }
+            }
+        },
+        {
+            "path" : "pages/details/details",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false //禁用原生导航栏
+                }
+            }
+        },
+        {
+            "path" : "pages/goodsDetails/goodsDetails",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false //禁用原生导航栏
+                }
+            }
+        },
+        {
+            "path" : "pages/sigin/sigin",
+            "style" : {
+                "navigationBarTitleText" : "密码登录"
+            }
+        },
+        {
+            "path" : "pages/register/register",
+            "style" : {
+                "navigationBarTitleText" : "手机验证"
+            }
+        },
+        {
+            "path" : "pages/phone-verification/phone-verification",
+            "style" : {
+                "navigationBarTitleText" : "手机验证"
+            }
+        },
+        {
+            "path" : "pages/Verification/Verification",
+            "style" : {
+                "navigationBarTitleText" : "手机验证"
+            }
+        },
+		{
+		    "path" : "pages/search-result/search-result",
+		    "style" : {
+		        "app-plus" : {
+		            "titleNView" : false //禁用原生导航栏
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/brand-pages/brand-pages",
+		    "style" : {
+		        "app-plus" : {
+		            "titleNView" : false //禁用原生导航栏
+		        }
+		    }
+		},
+        {
+            "path" : "pages/setting/setting",
+           "style" : {
+               "app-plus" : {
+                   "titleNView" : false //禁用原生导航栏
+               }
+           }
+        },
+		{
+		    "path" : "pages/my-order/my-order",
+		    "style" : {
+		        "navigationBarTitleText" : "我的订单"
+		    }
+		},
+		{
+		    "path" : "pages/account/account",
+		    "style" : {
+		        "app-plus" : {
+		            "titleNView" : false //禁用原生导航栏
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/profit/profit",
+		    "style" : {
+		        "app-plus" : {
+		            "titleNView" : false //禁用原生导航栏
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/cash-certification/cash-certification",
+		    "style" : {
+		        "navigationBarTitleText" : "提现认证"
+		    }
+		},
+		 {
+		    "path" : "pages/QRCode/QRCode",
+		    "style" : {
+		        "app-plus" : {
+		            "titleNView" : false //禁用原生导航栏
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/integral/integral",
+		    "style" : {
+		        "app-plus" : {
+		            "titleNView" : false //禁用原生导航栏
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/buyIntegral/buyIntegral",
+		    "style" : {
+		        "app-plus" : {
+		            "titleNView" : false //禁用原生导航栏
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/presentIntegral/presentIntegral",
+		    "style" : {
+				"app-plus" : {
+					"titleNView" : false //禁用原生导航栏
+				}
+			}
+		},
+		{
+		    "path" : "pages/protocol/protocol",
+		    "style" : {
+				"navigationBarTitleText" : "用户验证",
+				"app-plus" : {
+					"titleNView" : false //禁用原生导航栏
+				}
+		    }
+		}
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        // "navigationBarTitleText" : "uni-app",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+	"condition": { //模式配置，仅开发期间生效
+    "current": 0, //当前激活的模式（list 的索引项）
+    "list": [{
+            "name": "Mywallet", //模式名称
+            "path": "pages/account/account" //启动页面，必选
+        },{
+			"name": "ShoppingCar",
+			"path": "pages/shoppingCar/shoppingCar"
+		},{
+			"name": "nearbyBusiness",
+			"path": "pages/nearbyBusiness/nearbyBusiness"
+		},{
+			"name": "brand",
+			"path": "pages/brand-pages/brand-pages"
+		},{
+			"name": "zhuc",
+			"path": "pages/register/register"
+		},{
+			"name": "xieyi",
+			"path": "pages/protocol/protocol"
+		}
+    ]
+},
+    "tabBar" : { 
+        "color" : "#333",
+        "selectedColor" : "#E51C23",
+        "borderStyle" : "black",
+        "backgroundColor" : "#F8F8F8",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "iconPath" : "static/homeB.png",
+                "selectedIconPath" : "static/brand-pages/home.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/news/news",
+                "iconPath" : "static/geziB.png",
+                "selectedIconPath" : "static/geziR.png",
+                "text" : "资讯"
+            },
+            {
+                "pagePath" : "pages/nearbyBusiness/nearbyBusiness",
+                "iconPath" : "static/fujinB.png",
+                "selectedIconPath" : "static/fujinR.png",
+                "text" : "附近商家"
+            },
+            {
+                "pagePath" : "pages/shoppingCar/shoppingCar",
+                "iconPath" : "static/shop_carB.png",
+                "selectedIconPath" : "static/shop_carR.png",
+                "text" : "购物"
+            },
+            {
+                "pagePath" : "pages/me/me",
+                "iconPath" : "static/meB.png",
+                "selectedIconPath" : "static/meR.png",
+                "text" : "我的"
+            }
+        ]
+    }
+}

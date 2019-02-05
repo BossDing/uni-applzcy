@@ -1,0 +1,2 @@
+<import src="./phone-verification.vue.wxml" />
+    <template is="9a12f216" data="{{ ...$root['0'], $root }}"/>

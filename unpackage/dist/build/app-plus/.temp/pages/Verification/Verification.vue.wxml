@@ -1,0 +1,24 @@
+<template name="29b71b41">
+  <view class="_view data-v-7dba78b2">
+    <view class="_view data-v-7dba78b2 send">
+      <text class="_text data-v-7dba78b2">验证码已发送至</text>
+      <text class="_text data-v-7dba78b2">177 0000 0000</text>
+    </view>
+    <view class="_view data-v-7dba78b2 datas">
+      <text class="_text data-v-7dba78b2">60</text>
+      <text class="_text data-v-7dba78b2">秒</text>
+      <text class="_text data-v-7dba78b2">后重新获取</text>
+    </view>
+    <view class="_view data-v-7dba78b2 inputBox">
+      <input type="text" class="_input data-v-7dba78b2 input" />
+      <input type="text" class="_input data-v-7dba78b2 input" />
+      <input type="text" class="_input data-v-7dba78b2 input" />
+      <input type="text" class="_input data-v-7dba78b2 input" />
+      <input type="text" class="_input data-v-7dba78b2 input" />
+      <input type="text" class="_input data-v-7dba78b2 input" />
+    </view>
+    <view class="_view data-v-7dba78b2 active">
+      <button type="primary" class="_button data-v-7dba78b2 activeBtn" bindtap="handleProxy" data-eventid="{{'zhR-0'}}" data-comkey="{{$k}}">下一步</button>
+    </view>
+  </view>
+</template>

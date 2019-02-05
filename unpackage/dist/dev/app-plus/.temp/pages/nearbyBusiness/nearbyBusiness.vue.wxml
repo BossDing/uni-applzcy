@@ -1,0 +1,101 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<template name="13d6ea18">
+  <view class="_view data-v-3c6bbb3b content">
+    <view class="_view data-v-3c6bbb3b titleBox">
+      <template type="scan" size="25" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'Si6-0'],$root}}" is="33391514"></template>
+      <view class="_view data-v-3c6bbb3b inputBox">
+        <template type="search" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'ipL-1'],$root}}" is="33391514"></template>
+        <input type="text" value="" placeholder="输入关键字搜索" class="_input data-v-3c6bbb3b input" />
+      </view>
+      <template type="chat" size="20" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'IsH-2'],$root}}" is="33391514"></template>
+    </view>
+    <view class="_view data-v-3c6bbb3b topTitle">
+      <view class="_view data-v-3c6bbb3b allStore">
+        <template type="star" size="35" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'l9i-3'],$root}}" is="33391514"></template>
+        <text class="_text data-v-3c6bbb3b">全部商家</text>
+      </view>
+      <view class="_view data-v-3c6bbb3b discountStore">
+        <text class="_text data-v-3c6bbb3b">活动商家</text>
+      </view>
+      <view class="_view data-v-3c6bbb3b leftBox">
+        <template type="location-filled" size="30" data="{{...$root['0'], ...$root[$kk+'Kup-4'],$root}}" is="33391514"></template>
+        <template type="search" size="30" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'QTg-5'],$root}}" is="33391514"></template>
+      </view>
+    </view>
+    <view class="_view data-v-3c6bbb3b classification">
+      <view class="_view data-v-3c6bbb3b allClassification typeList">
+        <template type="bars" size="25" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'oGS-6'],$root}}" is="33391514"></template>
+        <text class="_text data-v-3c6bbb3b">全部分类</text>
+      </view>
+      <view class="_view data-v-3c6bbb3b city typeList">
+        <template type="location-filled" size="25" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'eQn-7'],$root}}" is="33391514"></template>
+        <text class="_text data-v-3c6bbb3b">全城</text>
+      </view>
+      <view class="_view data-v-3c6bbb3b IntelligentSorting typeList">
+        <template type="list" size="25" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'Cjm-8'],$root}}" is="33391514"></template>
+        <text class="_text data-v-3c6bbb3b">智能排序</text>
+      </view>
+    </view>
+    <view class="_view data-v-3c6bbb3b place">
+      <text class="_text data-v-3c6bbb3b">成都市成华区猛追湾</text>
+      <template type="refreshempty" size="25" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'ifg-9'],$root}}" is="33391514"></template>
+    </view>
+    <view class="_view data-v-3c6bbb3b shop">
+      <image src="../../static/shop.jpg" mode class="_image data-v-3c6bbb3b image"></image>
+      <view class="_view data-v-3c6bbb3b shopText">
+        <text class="_text data-v-3c6bbb3b name">猫咪咖啡店</text>
+        <view class="_view data-v-3c6bbb3b evaluate">
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'88g-10'],$root}}" is="33391514"></template>
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'vN7-11'],$root}}" is="33391514"></template>
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'vlP-12'],$root}}" is="33391514"></template>
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'NZu-13'],$root}}" is="33391514"></template>
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'baZ-14'],$root}}" is="33391514"></template>
+          <text class="_text data-v-3c6bbb3b garde">170评价</text>
+          <text class="_text data-v-3c6bbb3b consumption"> 人均120元</text>
+        </view>
+        <view class="_view data-v-3c6bbb3b bottomInformation">
+          <text class="_text data-v-3c6bbb3b crux">标签 关键词</text>
+          <text class="_text data-v-3c6bbb3b distance"> 小于 500m</text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-3c6bbb3b shop">
+      <image src="../../static/shop.jpg" mode class="_image data-v-3c6bbb3b image"></image>
+      <view class="_view data-v-3c6bbb3b shopText">
+        <text class="_text data-v-3c6bbb3b name">猫咪咖啡店</text>
+        <view class="_view data-v-3c6bbb3b evaluate">
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'uTn-15'],$root}}" is="33391514"></template>
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'qm6-16'],$root}}" is="33391514"></template>
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'yq1-17'],$root}}" is="33391514"></template>
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'SrN-18'],$root}}" is="33391514"></template>
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'5l2-19'],$root}}" is="33391514"></template>
+          <text class="_text data-v-3c6bbb3b garde">170评价</text>
+          <text class="_text data-v-3c6bbb3b consumption"> 人均120元</text>
+        </view>
+        <view class="_view data-v-3c6bbb3b bottomInformation">
+          <text class="_text data-v-3c6bbb3b crux">标签 关键词</text>
+          <text class="_text data-v-3c6bbb3b distance"> 小于 500m</text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-3c6bbb3b shop">
+      <image src="../../static/shop.jpg" mode class="_image data-v-3c6bbb3b image"></image>
+      <view class="_view data-v-3c6bbb3b shopText">
+        <text class="_text data-v-3c6bbb3b name">猫咪咖啡店</text>
+        <view class="_view data-v-3c6bbb3b evaluate">
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'FF8-20'],$root}}" is="33391514"></template>
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'PkL-21'],$root}}" is="33391514"></template>
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'yYE-22'],$root}}" is="33391514"></template>
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'vIS-23'],$root}}" is="33391514"></template>
+          <template type="star-filled" size="15" color="8e8e8e" data="{{...$root['0'], ...$root[$kk+'YpG-24'],$root}}" is="33391514"></template>
+          <text class="_text data-v-3c6bbb3b garde">170评价</text>
+          <text class="_text data-v-3c6bbb3b consumption"> 人均120元</text>
+        </view>
+        <view class="_view data-v-3c6bbb3b bottomInformation">
+          <text class="_text data-v-3c6bbb3b crux">标签 关键词</text>
+          <text class="_text data-v-3c6bbb3b distance"> 小于 500m</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

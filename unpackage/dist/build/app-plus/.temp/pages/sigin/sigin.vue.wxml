@@ -1,0 +1,24 @@
+<template name="458afc56">
+  <view class="_view data-v-347bfb35">
+    <form bindsubmit="handleProxy" data-eventid="{{'e7x-2'}}" data-comkey="{{$k}}" class="_form data-v-347bfb35">
+      <view class="_view data-v-347bfb35 section">
+        <input name="account" password="true" maxlength="32" placeholder="  请输入密码" placeholder-style="font-size:14px" class="_input data-v-347bfb35 password" />
+        <view class="_view data-v-347bfb35 eyesBox">
+          <image src="../../static/eyes.png" mode class="_image data-v-347bfb35 eyes"></image>
+        </view>
+      </view>
+      <view class="_view data-v-347bfb35 section">
+        <input name="password" password="true" maxlength="32" placeholder="  请确认密码" placeholder-style="font-size:14px" class="_input data-v-347bfb35 password" />
+        <view class="_view data-v-347bfb35 eyesBox" bindtap="handleProxy" data-eventid="{{'xdo-0'}}" data-comkey="{{$k}}">
+          <image src="../../static/eyes.png" mode class="_image data-v-347bfb35 eyes"></image>
+        </view>
+      </view>
+      <view class="_view data-v-347bfb35 remind">
+        <text class="_text data-v-347bfb35 remindText">密码长度8~24位,必须包含数字/字母/符号至少2种以上元素</text>
+      </view>
+      <view class="_view data-v-347bfb35 btn-area">
+        <button formType="submit" class="_button data-v-347bfb35 button" bindtap="handleProxy" data-eventid="{{'eI7-1'}}" data-comkey="{{$k}}">确认提交</button>
+      </view>
+    </form>
+  </view>
+</template>

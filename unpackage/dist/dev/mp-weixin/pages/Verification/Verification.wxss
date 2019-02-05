@@ -1,0 +1,43 @@
+.send.data-v-31239a96 {
+  padding: 10rpx 15rpx;
+  margin-top: 30rpx;
+}
+.datas.data-v-31239a96 {
+  padding: 10rpx 15rpx;
+  margin: 10rpx 0;
+  font-size: 28rpx;
+}
+.inputBox.data-v-31239a96 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.inputBox .input.data-v-31239a96 {
+  width: 80rpx;
+  height: 80rpx;
+  border: 1rpx solid #bbb;
+}
+.active.data-v-31239a96 {
+  width: 90%;
+  height: 100rpx;
+  margin: 80rpx auto;
+}
+.active .activeBtn.data-v-31239a96 {
+  width: 100%;
+  background: #f76968;
+  color: #fff;
+}
+

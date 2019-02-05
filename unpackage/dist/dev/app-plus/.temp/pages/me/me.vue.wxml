@@ -1,0 +1,221 @@
+<template name="8b453058">
+  <view class="_view data-v-0bbe8eca content">
+    <view class="_view data-v-0bbe8eca topBox">
+      <view class="_view data-v-0bbe8eca setUp">
+        <image src="../../static/setting.png" bindtap="handleProxy" class="_image data-v-0bbe8eca gear" data-eventid="{{'Bea-0'}}" data-comkey="{{$k}}"></image>
+        <image src="../../static/news.png" class="_image data-v-0bbe8eca chatboxes"></image>
+      </view>
+      <view class="_view data-v-0bbe8eca user">
+        <view class="_view data-v-0bbe8eca userInfor">
+          <image src="../../static/user.png" mode class="_image data-v-0bbe8eca userImg"></image>
+          <text class="_text data-v-0bbe8eca userNmae">用户名称</text>
+          <view class="_view data-v-0bbe8eca collectionBox">
+            <view class="_view data-v-0bbe8eca userCon">
+              <text class="_text data-v-0bbe8eca topNum">3</text>
+              <text class="_text data-v-0bbe8eca userContext">收藏</text>
+            </view>
+            <view class="_view data-v-0bbe8eca userCon">
+              <text class="_text data-v-0bbe8eca topNum">3</text>
+              <text class="_text data-v-0bbe8eca userContext">关注</text>
+            </view>
+            <view class="_view data-v-0bbe8eca userCon">
+              <text class="_text data-v-0bbe8eca topNum">3</text>
+              <text class="_text data-v-0bbe8eca userContext">足迹</text>
+            </view>
+            <view class="_view data-v-0bbe8eca userCon">
+              <text class="_text data-v-0bbe8eca topNum">3</text>
+              <text class="_text data-v-0bbe8eca userContext">已分享</text>
+            </view>
+          </view>
+        </view>
+        <image src="../../static/vip(1).png" mode class="_image data-v-0bbe8eca goldVipImage"></image>
+        <text class="_text data-v-0bbe8eca goldVip">黄金会员</text>
+      </view>
+    </view>
+    <view class="_view data-v-0bbe8eca myOrder">
+      <view class="_view data-v-0bbe8eca orderTitle" bindtap="handleProxy" data-eventid="{{'eZi-1'}}" data-comkey="{{$k}}">
+        <text class="_text data-v-0bbe8eca orderTitleLeft">我的订单</text>
+        <text class="_text data-v-0bbe8eca orderTitleRight">查看全部></text>
+      </view>
+      <view class="_view data-v-0bbe8eca orderContentBox">
+        <view class="_view data-v-0bbe8eca orderContent">
+          <image src="../../static/moneyR.png" mode class="_image data-v-0bbe8eca orderImage"></image>
+          <text class="_text data-v-0bbe8eca orderText">待付款</text>
+        </view>
+        <view class="_view data-v-0bbe8eca orderContent">
+          <image src="../../static/card.png" mode class="_image data-v-0bbe8eca orderImage"></image>
+          <text class="_text data-v-0bbe8eca orderText">待发货</text>
+        </view>
+        <view class="_view data-v-0bbe8eca orderContent">
+          <image src="../../static/giftR.png" mode class="_image data-v-0bbe8eca orderImage"></image>
+          <text class="_text data-v-0bbe8eca orderText">待收获</text>
+        </view>
+        <view class="_view data-v-0bbe8eca orderContent">
+          <image src="../../static/record.png" mode class="_image data-v-0bbe8eca orderImage"></image>
+          <text class="_text data-v-0bbe8eca orderText">评价</text>
+        </view>
+        <view class="_view data-v-0bbe8eca orderContent">
+          <image src="../../static/return.png" mode class="_image data-v-0bbe8eca orderImage"></image>
+          <text class="_text data-v-0bbe8eca orderText">退换货</text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-0bbe8eca advertisement">
+      <image src="../../static/raw_1523521108.png" mode class="_image data-v-0bbe8eca advertisementImage"></image>
+    </view>
+    <view class="_view data-v-0bbe8eca myService">
+      <text class="_text data-v-0bbe8eca myServiceTitle">我的服务</text>
+      <view class="_view data-v-0bbe8eca modularTitleBox">
+        <text class="_text data-v-0bbe8eca modularTitle">系统上一天分享</text>
+      </view>
+      <view class="_view data-v-0bbe8eca serviceBox">
+        <view class="_view data-v-0bbe8eca modular">
+          <view class="_view data-v-0bbe8eca serviceImageBox red">
+            <image src="../../static/msg.png" mode class="_image data-v-0bbe8eca serviceImage"></image>
+          </view>
+          <text class="_text data-v-0bbe8eca balance">23456</text>
+          <text class="_text data-v-0bbe8eca balanceName">积分总数</text>
+        </view>
+        <view class="_view data-v-0bbe8eca modular">
+          <view class="_view data-v-0bbe8eca serviceImageBox yellow">
+            <image src="../../static/extend.png" mode class="_image data-v-0bbe8eca serviceImage"></image>
+          </view>
+          <text class="_text data-v-0bbe8eca balance">5.01</text>
+          <text class="_text data-v-0bbe8eca balanceName">转换率</text>
+        </view>
+        <view class="_view data-v-0bbe8eca modular">
+          <view class="_view data-v-0bbe8eca serviceImageBox orange">
+            <image src="../../static/extend.png" mode class="_image data-v-0bbe8eca serviceImage"></image>
+          </view>
+          <text class="_text data-v-0bbe8eca balance">5467544</text>
+          <text class="_text data-v-0bbe8eca balanceName">共享金</text>
+        </view>
+      </view>
+      <view class="_view data-v-0bbe8eca modularTitleBox">
+        <text class="_text data-v-0bbe8eca modularTitle">积分账户</text>
+      </view>
+      <view class="_view data-v-0bbe8eca serviceBox">
+        <view class="_view data-v-0bbe8eca modular">
+          <view class="_view data-v-0bbe8eca serviceImageBox orange">
+            <image src="../../static/giftw.png" mode class="_image data-v-0bbe8eca serviceImage"></image>
+          </view>
+          <text class="_text data-v-0bbe8eca balance">23456</text>
+          <text class="_text data-v-0bbe8eca balanceName">消费积分</text>
+        </view>
+        <view class="_view data-v-0bbe8eca modular">
+          <view class="_view data-v-0bbe8eca serviceImageBox purple">
+            <image src="../../static/extend.png" mode class="_image data-v-0bbe8eca serviceImage"></image>
+          </view>
+          <text class="_text data-v-0bbe8eca balance">￥0.00</text>
+          <text class="_text data-v-0bbe8eca balanceName">交易账户</text>
+        </view>
+        <view class="_view data-v-0bbe8eca modular" bindtap="handleProxy" data-eventid="{{'JpV-2'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-0bbe8eca serviceImageBox yellow">
+            <image src="../../static/moneyW.png" mode class="_image data-v-0bbe8eca serviceImage"></image>
+          </view>
+          <text class="_text data-v-0bbe8eca balance">123456</text>
+          <text class="_text data-v-0bbe8eca balanceName">库存积分</text>
+        </view>
+      </view>
+      <view class="_view data-v-0bbe8eca modularTitleBox">
+        <text class="_text data-v-0bbe8eca modularTitle">资金账户</text>
+      </view>
+      <view class="_view data-v-0bbe8eca serviceBox">
+        <view class="_view data-v-0bbe8eca modular">
+          <view class="_view data-v-0bbe8eca serviceImageBox green" bindtap="handleProxy" data-eventid="{{'tvi-3'}}" data-comkey="{{$k}}">
+            <image src="../../static/pre.png" mode class="_image data-v-0bbe8eca serviceImage"></image>
+          </view>
+          <text class="_text data-v-0bbe8eca balance">￥0.00</text>
+          <text class="_text data-v-0bbe8eca balanceName">预付款</text>
+        </view>
+        <view class="_view data-v-0bbe8eca modular">
+          <view class="_view data-v-0bbe8eca serviceImageBox yellow">
+            <image src="../../static/extend.png" mode class="_image data-v-0bbe8eca serviceImage"></image>
+          </view>
+          <text class="_text data-v-0bbe8eca balance">￥0.00</text>
+          <text class="_text data-v-0bbe8eca balanceName">消费共享金</text>
+        </view>
+        <view class="_view data-v-0bbe8eca modular">
+          <view class="_view data-v-0bbe8eca serviceImageBox yellow">
+            <image src="../../static/authW.png" mode class="_image data-v-0bbe8eca serviceImage"></image>
+          </view>
+          <text class="_text data-v-0bbe8eca balance">￥0.00</text>
+          <text class="_text data-v-0bbe8eca balanceName">扶贫资金</text>
+        </view>
+        <view class="_view data-v-0bbe8eca modular">
+          <view class="_view data-v-0bbe8eca serviceImageBox purple">
+            <image src="../../static/oldMan.png" mode class="_image data-v-0bbe8eca serviceImage"></image>
+          </view>
+          <text class="_text data-v-0bbe8eca balance">￥0.00</text>
+          <text class="_text data-v-0bbe8eca balanceName">养老资金</text>
+        </view>
+        <view class="_view data-v-0bbe8eca modular">
+          <view class="_view data-v-0bbe8eca serviceImageBox yellow">
+            <image src="../../static/getMW.png" mode class="_image data-v-0bbe8eca serviceImage"></image>
+          </view>
+          <text class="_text data-v-0bbe8eca balance">￥0.00</text>
+          <text class="_text data-v-0bbe8eca balanceName">服务费</text>
+        </view>
+        <view class="_view data-v-0bbe8eca modular" bindtap="handleProxy" data-eventid="{{'vsM-4'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-0bbe8eca serviceImageBox red">
+            <image src="../../static/RATE.png" mode class="_image data-v-0bbe8eca serviceImage"></image>
+          </view>
+          <text class="_text data-v-0bbe8eca balance">￥0.00</text>
+          <text class="_text data-v-0bbe8eca balanceName">赠送收益</text>
+        </view>
+      </view>
+      <view class="_view data-v-0bbe8eca sginInBox">
+        <view class="_view data-v-0bbe8eca sginInCon">
+          <image src="../../static/signB.png" mode class="_image data-v-0bbe8eca sginInImage"></image>
+          <text class="_text data-v-0bbe8eca">签到</text>
+        </view>
+        <view class="_view data-v-0bbe8eca sginInCon">
+          <image src="../../static/getM.png" mode class="_image data-v-0bbe8eca sginInImage"></image>
+          <text class="_text data-v-0bbe8eca">商家收款</text>
+        </view>
+        <view class="_view data-v-0bbe8eca sginInCon">
+          <image src="../../static/authR.png" mode class="_image data-v-0bbe8eca sginInImage"></image>
+          <text class="_text data-v-0bbe8eca">认证</text>
+        </view>
+        <view class="_view data-v-0bbe8eca sginInCon">
+          <image src="../../static/getM.png" mode class="_image data-v-0bbe8eca sginInImage"></image>
+          <text class="_text data-v-0bbe8eca">我的推广</text>
+        </view>
+        <view class="_view data-v-0bbe8eca sginInCon">
+          <image src="../../static/account.png" mode class="_image data-v-0bbe8eca sginInImage"></image>
+          <text class="_text data-v-0bbe8eca">线下订单</text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-0bbe8eca brandDynamics">
+      <view class="_view data-v-0bbe8eca brandTitle">
+        <image src="../../static/方点.png" class="_image data-v-0bbe8eca brandTitleImage"></image>
+        <text class="_text data-v-0bbe8eca">品牌动态</text>
+        <image src="../../static/方点.png" class="_image data-v-0bbe8eca brandTitleImage"></image>
+      </view>
+      <view class="_view data-v-0bbe8eca brandBox">
+        <view class="_view data-v-0bbe8eca brandCon">
+          <image src="../../static/f27da758a86543d7.jpg" class="_image data-v-0bbe8eca brandLeftImage"></image>
+          <text class="_text data-v-0bbe8eca brandName">Aptamil</text>
+          <text class="_text data-v-0bbe8eca promotion">促销</text>
+        </view>
+        <image src="../../static/raw_1522116070.png" mode class="_image data-v-0bbe8eca brandImage"></image>
+        <image src="../../static/raw_1522116070.png" mode class="_image data-v-0bbe8eca brandImage"></image>
+        <image src="../../static/raw_1522116070.png" mode class="_image data-v-0bbe8eca brandImage"></image>
+      </view>
+      <view class="_view data-v-0bbe8eca brandBox">
+        <view class="_view data-v-0bbe8eca brandCon">
+          <image src="../../static/f27da758a86543d7.jpg" class="_image data-v-0bbe8eca brandLeftImage"></image>
+          <text class="_text data-v-0bbe8eca brandName">Aptamil</text>
+          <text class="_text data-v-0bbe8eca promotion">促销</text>
+        </view>
+        <image src="../../static/raw_1522116070.png" mode class="_image data-v-0bbe8eca brandImage"></image>
+        <image src="../../static/raw_1522116070.png" mode class="_image data-v-0bbe8eca brandImage"></image>
+        <image src="../../static/raw_1522116070.png" mode class="_image data-v-0bbe8eca brandImage"></image>
+      </view>
+      <view class="_view data-v-0bbe8eca more">
+        <text class="_text data-v-0bbe8eca">更多感兴趣的品牌动态 > </text>
+      </view>
+    </view>
+  </view>
+</template>

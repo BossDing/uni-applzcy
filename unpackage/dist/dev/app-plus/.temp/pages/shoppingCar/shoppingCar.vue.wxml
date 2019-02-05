@@ -1,0 +1,240 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<template name="4825c434">
+  <view class="_view data-v-1dfecb96 content">
+    <view class="_view data-v-1dfecb96 normal_content">
+      <view class="_view data-v-1dfecb96 title">
+        <text class="_text data-v-1dfecb96 theme">购物车(5)</text>
+        <view class="_view data-v-1dfecb96 operate">
+          <text class="_text data-v-1dfecb96 edit">编辑</text>
+          <template type="chatboxes" size="30" data="{{...$root['0'], ...$root[$kk+'xt4-0'],$root}}" is="33391514"></template>
+        </view>
+      </view>
+      <view class="_view data-v-1dfecb96 address">
+        <template type="location-filled" size="30" data="{{...$root['0'], ...$root[$kk+'8l8-1'],$root}}" is="33391514"></template>
+        <text class="_text data-v-1dfecb96 addressDes font">送至：</text>
+        <text class="_text data-v-1dfecb96 addressDes">绵阳培城区 ></text>
+      </view>
+      <view class="_view data-v-1dfecb96 shoppingCarBox">
+        <view class="_view data-v-1dfecb96 storeTitle">
+          <text class="_text data-v-1dfecb96 empty"></text>
+          <text class="_text data-v-1dfecb96 store-Kind">自营保税仓</text>
+        </view>
+        <view class="_view data-v-1dfecb96 goodsItem">
+          <text class="_text data-v-1dfecb96 empty"></text>
+          <view class="_view data-v-1dfecb96 img-box">
+            <image src="../../static/raw_1521984570.png" mode class="_image data-v-1dfecb96"></image>
+          </view>
+          <view class="_view data-v-1dfecb96 infor-des">
+            <view class="_view data-v-1dfecb96 top">
+              <view class="_view data-v-1dfecb96 goods-detail">
+                <text class="_text data-v-1dfecb96 special normal">特价</text>
+                <text class="_text data-v-1dfecb96 goods-name normal">3件装|MEDIHEAL美迪尔惠</text>
+                <text class="_text data-v-1dfecb96 price">￥169.00元</text>
+              </view>
+              <view class="_view data-v-1dfecb96 goods-detail">
+                <text class="_text data-v-1dfecb96 goods-content">NMF针剂水库保湿面膜10元/盒</text>
+                <text class="_text data-v-1dfecb96 reduce-price">已降16</text>
+              </view>
+            </view>
+            <view class="_view data-v-1dfecb96 bottom">
+              <view class="_view data-v-1dfecb96 count">
+                <text class="_text data-v-1dfecb96">x 2</text>
+              </view>
+              <view class="_view data-v-1dfecb96 tax">
+                <text class="_text data-v-1dfecb96">税费：</text>
+                <text class="_text data-v-1dfecb96">￥24.00</text>
+                <template type="arrowdown" size="30" data="{{...$root['0'], ...$root[$kk+'vpm-2'],$root}}" is="33391514"></template>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-1dfecb96 goodsItem">
+          <text class="_text data-v-1dfecb96 empty"></text>
+          <view class="_view data-v-1dfecb96 img-box">
+            <image src="../../static/raw_1521984570.png" mode class="_image data-v-1dfecb96"></image>
+          </view>
+          <view class="_view data-v-1dfecb96 infor-des">
+            <view class="_view data-v-1dfecb96 top">
+              <view class="_view data-v-1dfecb96 goods-detail">
+                <text class="_text data-v-1dfecb96 special normal">特价</text>
+                <text class="_text data-v-1dfecb96 goods-name normal">3件装|MEDIHEAL美迪尔惠</text>
+                <text class="_text data-v-1dfecb96 price">￥169.00元</text>
+              </view>
+              <view class="_view data-v-1dfecb96 goods-detail">
+                <text class="_text data-v-1dfecb96 goods-content">NMF针剂水库保湿面膜10元/盒</text>
+                <text class="_text data-v-1dfecb96 reduce-price">已降16</text>
+              </view>
+            </view>
+            <view class="_view data-v-1dfecb96 bottom">
+              <view class="_view data-v-1dfecb96 count">
+                <text class="_text data-v-1dfecb96">x 2</text>
+              </view>
+              <view class="_view data-v-1dfecb96 tax">
+                <text class="_text data-v-1dfecb96">税费：</text>
+                <text class="_text data-v-1dfecb96">￥24.00</text>
+                <template type="arrowdown" size="30" data="{{...$root['0'], ...$root[$kk+'5Pn-3'],$root}}" is="33391514"></template>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-1dfecb96 goodsItem">
+          <text class="_text data-v-1dfecb96 empty"></text>
+          <view class="_view data-v-1dfecb96 img-box">
+            <image src="../../static/raw_1521984570.png" mode class="_image data-v-1dfecb96"></image>
+          </view>
+          <view class="_view data-v-1dfecb96 infor-des">
+            <view class="_view data-v-1dfecb96 top">
+              <view class="_view data-v-1dfecb96 goods-detail">
+                <text class="_text data-v-1dfecb96 special normal">特价</text>
+                <text class="_text data-v-1dfecb96 goods-name normal">3件装|MEDIHEAL美迪尔惠</text>
+                <text class="_text data-v-1dfecb96 price">￥169.00元</text>
+              </view>
+              <view class="_view data-v-1dfecb96 goods-detail">
+                <text class="_text data-v-1dfecb96 goods-content">NMF针剂水库保湿面膜10元/盒</text>
+                <text class="_text data-v-1dfecb96 reduce-price">已降16</text>
+              </view>
+            </view>
+            <view class="_view data-v-1dfecb96 bottom">
+              <view class="_view data-v-1dfecb96 count">
+                <text class="_text data-v-1dfecb96">x 2</text>
+              </view>
+              <view class="_view data-v-1dfecb96 tax">
+                <text class="_text data-v-1dfecb96">税费：</text>
+                <text class="_text data-v-1dfecb96">￥24.00</text>
+                <template type="arrowdown" size="30" data="{{...$root['0'], ...$root[$kk+'p2P-4'],$root}}" is="33391514"></template>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-1dfecb96 total">
+        <view class="_view data-v-1dfecb96 discount">
+          <text class="_text data-v-1dfecb96">优惠活动：</text>
+          <text class="_text data-v-1dfecb96">-￥0.00</text>
+        </view>
+        <view class="_view data-v-1dfecb96 total-price">
+          <text class="_text data-v-1dfecb96">本仓总计(不含税)：</text>
+          <text class="_text data-v-1dfecb96">￥1600.00</text>
+        </view>
+      </view>
+      <view class="_view data-v-1dfecb96 chooseAll">
+        <view class="_view data-v-1dfecb96 all">
+          <text class="_text data-v-1dfecb96 empty"></text>
+          <text class="_text data-v-1dfecb96">全选</text>
+        </view>
+        <view class="_view data-v-1dfecb96 tax">
+          <view class="_view data-v-1dfecb96 price">
+            <text class="_text data-v-1dfecb96">总计不含税：</text>
+            <text class="_text data-v-1dfecb96 price-num">￥169.00</text>
+          </view>
+          <text class="_text data-v-1dfecb96 tax-price">商品税费 ￥55.36</text>
+        </view>
+        <view class="_view data-v-1dfecb96 settlement" bindtap="handleProxy" data-eventid="{{'MBY-0'}}" data-comkey="{{$k}}">
+          <text class="_text data-v-1dfecb96">结算(1)</text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-1dfecb96 mask_content" wx:if="{{isBackgroundShow}}">
+      <view class="_view data-v-1dfecb96 mask-box" wx:if="{{isShow}}">
+        <view class="_view data-v-1dfecb96 mask-item">
+          <view class="_view data-v-1dfecb96 address" bindtap="handleProxy" data-eventid="{{'qKM-1'}}" data-comkey="{{$k}}">
+            <text class="_text data-v-1dfecb96 address-item">收货地址</text>
+            <text class="_text data-v-1dfecb96 add">请添加收货地址</text>
+            <template type="arrowdown" size="24" data="{{...$root['0'], ...$root[$kk+'nIk-5'],$root}}" is="33391514"></template>
+          </view>
+          <view class="_view data-v-1dfecb96 deliver">
+            <text class="_text data-v-1dfecb96 address-item">配送</text>
+            <text class="_text data-v-1dfecb96 add">自营 (1单)</text>
+            <template type="arrowdown" size="24" data="{{...$root['0'], ...$root[$kk+'X8Z-6'],$root}}" is="33391514"></template>
+          </view>
+          <view class="_view data-v-1dfecb96 ticket">
+            <text class="_text data-v-1dfecb96 address-item">优惠券</text>
+            <text class="_text data-v-1dfecb96 add">暂无可用</text>
+            <template type="arrowdown" size="24" data="{{...$root['0'], ...$root[$kk+'iDc-7'],$root}}" is="33391514"></template>
+          </view>
+          <view class="_view data-v-1dfecb96 invoice">
+            <text class="_text data-v-1dfecb96 address-item">发票</text>
+            <text class="_text data-v-1dfecb96 add">不支持开发票</text>
+            <template type="arrowdown" size="24" data="{{...$root['0'], ...$root[$kk+'hkE-8'],$root}}" is="33391514"></template>
+          </view>
+          <view class="_view data-v-1dfecb96 luckbag">
+            <text class="_text data-v-1dfecb96 address-item">红包</text>
+            <text class="_text data-v-1dfecb96 add">暂无可用</text>
+            <template type="arrowdown" size="24" data="{{...$root['0'], ...$root[$kk+'S4m-9'],$root}}" is="33391514"></template>
+          </view>
+          <view class="_view data-v-1dfecb96 money">
+            <text class="_text data-v-1dfecb96 address-item">应付金额</text>
+            <text class="_text data-v-1dfecb96 add">￥169.00</text>
+            <text class="_text data-v-1dfecb96 tax">(含税费￥0.00)</text>
+            <template type="arrowdown" size="24" data="{{...$root['0'], ...$root[$kk+'FMD-10'],$root}}" is="33391514"></template>
+          </view>
+          <view class="_view data-v-1dfecb96 agree">
+            <image class="_image data-v-1dfecb96 icon" src="../../static/choose.png" mode></image>
+            <text class="_text data-v-1dfecb96 address-item">本人同意并接受以下协议</text>
+            <text class="_text data-v-1dfecb96 add">￥0.00</text>
+          </view>
+        </view>
+        <view class="_view data-v-1dfecb96 submit-btn" bindtap="handleProxy" data-eventid="{{'qgW-2'}}" data-comkey="{{$k}}">
+          <text class="_text data-v-1dfecb96">提交订单</text>
+        </view>
+      </view>
+      <view class="_view data-v-1dfecb96 new-address-box" wx:if="{{isNew}}">
+        <view class="_view data-v-1dfecb96 new-address-item_">
+          <view class="_view data-v-1dfecb96 address_">
+            <text class="_text data-v-1dfecb96 address-item">新建地址</text>
+            <template type="arrowdown" size="24" data="{{...$root['0'], ...$root[$kk+'MqJ-11'],$root}}" is="33391514"></template>
+          </view>
+          <view class="_view data-v-1dfecb96 main-content">
+            <view class="_view data-v-1dfecb96 name-box">
+              <input class="_input data-v-1dfecb96 name" type="text" value="" placeholder="收货人姓名(请使用真实姓名)" />
+            </view>
+            <view class="_view data-v-1dfecb96 phone-box">
+              <input class="_input data-v-1dfecb96 phone" type="text" value="" placeholder="手机号码" />
+            </view>
+            <view class="_view data-v-1dfecb96 area-box">
+              <input class="_input data-v-1dfecb96 area" type="text" value="" placeholder="所在地区" />
+            </view>
+            <view class="_view data-v-1dfecb96 details-box">
+              <input class="_input data-v-1dfecb96 details" type="text" value="" placeholder="街道/小区门派等详细地址" />
+            </view>
+            <view class="_view data-v-1dfecb96 selected-box">
+              <view class="_view data-v-1dfecb96 empty-box">
+                <text class="_text data-v-1dfecb96 empty"></text>
+              </view>
+              <text class="_text data-v-1dfecb96 selected-address">设为默认地址</text>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-1dfecb96 submit-btn" bindtap="handleProxy" data-eventid="{{'JiW-3'}}" data-comkey="{{$k}}">
+          <text class="_text data-v-1dfecb96">提交订单</text>
+        </view>
+      </view>
+      <view class="_view data-v-1dfecb96 pay-methods" wx:if="{{isPay}}">
+        <view class="_view data-v-1dfecb96 methods-box">
+          <view class="_view data-v-1dfecb96 title-box">
+            <text class="_text data-v-1dfecb96 title">请选择支付方式</text>
+            <image src="../../static/closeBtn.png" mode bindtap="handleProxy" data-eventid="{{'20Q-4'}}" data-comkey="{{$k}}" class="_image data-v-1dfecb96"></image>
+          </view>
+          <view class="_view data-v-1dfecb96 pay-time-box">
+            <text class="_text data-v-1dfecb96 text">请在0小时30分钟内完成支付 金额</text>
+            <text class="_text data-v-1dfecb96 price">￥169.00</text>
+            <text class="_text data-v-1dfecb96 symbol">元</text>
+          </view>
+          <view class="_view data-v-1dfecb96 ali-pay {{[!isAli ? 'active' : '']}}" bindtap="handleProxy" data-eventid="{{'HzP-5'}}" data-comkey="{{$k}}">
+            <image src="../../static/ali_pay.png" mode class="_image data-v-1dfecb96"></image>
+            <text class="_text data-v-1dfecb96 ali">支付宝</text>
+            <image wx:if="{{!isAli}}" class="_image data-v-1dfecb96 select" src="../../static/choose.png" mode></image>
+          </view>
+          <view class="_view data-v-1dfecb96 weChat-pay {{[isAli ? 'active' : '']}}" bindtap="handleProxy" data-eventid="{{'7gI-6'}}" data-comkey="{{$k}}">
+            <image src="../../static/wechat.png" mode class="_image data-v-1dfecb96"></image>
+            <text class="_text data-v-1dfecb96">微信支付</text>
+            <image wx:if="{{isAli}}" class="_image data-v-1dfecb96 select" src="../../static/choose.png" mode></image>
+          </view>
+        </view>
+        <view class="_view data-v-1dfecb96 submit-btn">
+          <text class="_text data-v-1dfecb96">提交订单</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

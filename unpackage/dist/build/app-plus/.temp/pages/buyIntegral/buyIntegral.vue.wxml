@@ -1,0 +1,36 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<template name="170ec60d">
+  <view class="_view data-v-1a3a05a6 content">
+    <view class="_view data-v-1a3a05a6 status-contents">
+      <view class="_view data-v-1a3a05a6 status top-view"></view>
+    </view>
+    <view class="_view data-v-1a3a05a6 title-box" bindtap="handleProxy" data-eventid="{{'EBg-0'}}" data-comkey="{{$k}}">
+      <template type="arrowleft" size="28" color="#333" data="{{...$root['0'], ...$root[$kk+'klf-0'],$root}}" is="391d5dee"></template>
+      <text class="_text data-v-1a3a05a6 title">购买积分</text>
+    </view>
+    <view class="_view data-v-1a3a05a6 buy-box">
+      <view class="_view data-v-1a3a05a6 pay-method">
+        <text class="_text data-v-1a3a05a6 method">支付方式</text>
+        <view class="_view data-v-1a3a05a6 wechat-pay">
+          <text class="_text data-v-1a3a05a6">微信支付</text>
+          <template type="arrowright" size="28" color="#333" data="{{...$root['0'], ...$root[$kk+'xAy-1'],$root}}" is="391d5dee"></template>
+        </view>
+      </view>
+      <view class="_view data-v-1a3a05a6 buy-count">
+        <text class="_text data-v-1a3a05a6 num">购买数量</text>
+        <text class="_text data-v-1a3a05a6 num_">请输入购买数量</text>
+      </view>
+      <view class="_view data-v-1a3a05a6 need-money">
+        <text class="_text data-v-1a3a05a6 need">需付金额</text>
+        <view class="_view data-v-1a3a05a6 input-box">
+          <text class="_text data-v-1a3a05a6">￥</text>
+          <input type="text" value="" placeholder="0.00" class="_input data-v-1a3a05a6" />
+        </view>
+      </view>
+      <text class="_text data-v-1a3a05a6 more">本次最多可购买100000积分</text>
+    </view>
+    <view class="_view data-v-1a3a05a6 confirm-btn">
+      <text class="_text data-v-1a3a05a6">确认购买</text>
+    </view>
+  </view>
+</template>

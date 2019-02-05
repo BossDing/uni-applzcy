@@ -1,0 +1,48 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<template name="3333d3f6">
+  <view class="_view data-v-3707e712">
+    <view class="_view data-v-3707e712 status-contents">
+      <view class="_view data-v-3707e712 status top-view"></view>
+    </view>
+    <view class="_view data-v-3707e712 myWallet">
+      <view class="_view data-v-3707e712 myWalletTitle">
+        <view class="_view data-v-3707e712 backBtn" bindtap="handleProxy" data-eventid="{{'S1o-0'}}" data-comkey="{{$k}}">
+          <template type="back" size="30" color="#fff" data="{{...$root['0'], ...$root[$kk+'wPU-0'],$root}}" is="33391514"></template>
+        </view>
+        <text class="_text data-v-3707e712 myWalletTitleText">我的钱包</text>
+      </view>
+      <view class="_view data-v-3707e712 quotaBox">
+        <text class="_text data-v-3707e712 money">3000</text>
+        <text class="_text data-v-3707e712 allMoney">预付款总额</text>
+        <view class="_view data-v-3707e712 recharge">
+          <image src="../../static/money.png" class="_image data-v-3707e712 rechargeImg"></image>
+          <text class="_text data-v-3707e712 rechargeText">充值</text>
+        </view>
+      </view>
+      <view class="_view data-v-3707e712 detailedBox">
+        <view class="_view data-v-3707e712 detailed">
+          <text class="_text data-v-3707e712 detailedLfet">账单明细</text>
+          <view class="_view data-v-3707e712 detailedRight">
+            <image src="../../static/Arrow_right02.png" class="_image data-v-3707e712 detailedRightImg"></image>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-3707e712 payMode">
+        <view class="_view data-v-3707e712 payModeTitle">
+          <text class="_text data-v-3707e712">请选择支付方式</text>
+        </view>
+        <view class="_view data-v-3707e712 alipay">
+          <image src="../../static/ali_pay.png" class="_image data-v-3707e712 payImg"></image>
+          <text class="_text data-v-3707e712">支付宝</text>
+          <view class="_view data-v-3707e712 selectedImgBox">
+            <image src="../../static/choose.png" class="_image data-v-3707e712 blackImg"></image>
+          </view>
+        </view>
+        <view class="_view data-v-3707e712 WeChat">
+          <image src="../../static/wechat.png" class="_image data-v-3707e712 payImg"></image>
+          <text class="_text data-v-3707e712">微信支付</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

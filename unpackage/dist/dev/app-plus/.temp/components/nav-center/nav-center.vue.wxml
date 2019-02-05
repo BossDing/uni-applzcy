@@ -1,0 +1,8 @@
+<template name="bb3ab954">
+  <view class="_view data-v-29a99a2f nav-box">
+    <view class="_view data-v-29a99a2f nav-item" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'UwW-0-'+index}}" data-comkey="{{$k}}" wx:for="{{navList}}" wx:for-index="index" wx:for-item="item">
+      <view class="_view data-v-29a99a2f image"></view>
+      <text class="_text data-v-29a99a2f">{{item}}</text>
+    </view>
+  </view>
+</template>

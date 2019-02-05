@@ -1,0 +1,32 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<template name="cb14e958">
+  <view class="_view data-v-3cf4184a content">
+    <view class="_view data-v-3cf4184a status-contents">
+      <view class="_view data-v-3cf4184a status top-view"></view>
+    </view>
+    <view class="_view data-v-3cf4184a title-box" bindtap="handleProxy" data-eventid="{{'Vdn-0'}}" data-comkey="{{$k}}">
+      <template type="arrowleft" size="28" color="#fff" data="{{...$root['0'], ...$root[$kk+'aeE-0'],$root}}" is="33391514"></template>
+      <text class="_text data-v-3cf4184a title">库存积分</text>
+    </view>
+    <view class="_view data-v-3cf4184a integral-box">
+      <view class="_view data-v-3cf4184a toUse">
+        <text class="_text data-v-3cf4184a price">80000</text>
+        <text class="_text data-v-3cf4184a text">可支配积分</text>
+      </view>
+      <view class="_view data-v-3cf4184a integral-items">
+        <view class="_view data-v-3cf4184a details-item">
+          <text class="_text data-v-3cf4184a">账单明细</text>
+          <template type="arrowright" size="24" color="#333" data="{{...$root['0'], ...$root[$kk+'xth-1'],$root}}" is="33391514"></template>
+        </view>
+        <view class="_view data-v-3cf4184a buy-item" bindtap="handleProxy" data-eventid="{{'7cj-1'}}" data-comkey="{{$k}}">
+          <text class="_text data-v-3cf4184a">购买积分</text>
+          <template type="arrowright" size="24" color="#333" data="{{...$root['0'], ...$root[$kk+'LOw-2'],$root}}" is="33391514"></template>
+        </view>
+        <view class="_view data-v-3cf4184a given-item" bindtap="handleProxy" data-eventid="{{'ycW-2'}}" data-comkey="{{$k}}">
+          <text class="_text data-v-3cf4184a">赠送积分</text>
+          <template type="arrowright" size="24" color="#333" data="{{...$root['0'], ...$root[$kk+'y6x-3'],$root}}" is="33391514"></template>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

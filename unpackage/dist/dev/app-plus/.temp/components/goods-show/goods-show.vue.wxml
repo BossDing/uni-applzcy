@@ -1,0 +1,9 @@
+<template name="3f998c36">
+  <view class="_view data-v-723ef9e2 content">
+    <view class="_view data-v-723ef9e2 kinds" wx:key="index" key="{{index}}" wx:for="{{goodsShow}}" wx:for-index="index" wx:for-item="item">
+      <text clas="title" class="_text data-v-723ef9e2">{{item.title}}</text>
+      <text class="_text data-v-723ef9e2 subTitle">{{item.subTitle}}</text>
+      <image src="{{item.img}}" mode class="_image data-v-723ef9e2"></image>
+    </view>
+  </view>
+</template>

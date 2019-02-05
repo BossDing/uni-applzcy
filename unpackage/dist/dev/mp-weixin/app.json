@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/shoppingCar/shoppingCar",
+    "pages/me/me",
+    "pages/nearbyBusiness/nearbyBusiness",
+    "pages/news/news",
+    "pages/details/details",
+    "pages/goodsDetails/goodsDetails",
+    "pages/sigin/sigin",
+    "pages/register/register",
+    "pages/phone-verification/phone-verification",
+    "pages/Verification/Verification",
+    "pages/search-result/search-result",
+    "pages/brand-pages/brand-pages",
+    "pages/setting/setting",
+    "pages/my-order/my-order",
+    "pages/account/account",
+    "pages/profit/profit",
+    "pages/cash-certification/cash-certification",
+    "pages/QRCode/QRCode",
+    "pages/integral/integral",
+    "pages/buyIntegral/buyIntegral",
+    "pages/presentIntegral/presentIntegral",
+    "pages/protocol/protocol"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#E51C23",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/homeB.png",
+        "selectedIconPath": "static/brand-pages/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "static/geziB.png",
+        "selectedIconPath": "static/geziR.png",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "pages/nearbyBusiness/nearbyBusiness",
+        "iconPath": "static/fujinB.png",
+        "selectedIconPath": "static/fujinR.png",
+        "text": "附近商家"
+      },
+      {
+        "pagePath": "pages/shoppingCar/shoppingCar",
+        "iconPath": "static/shop_carB.png",
+        "selectedIconPath": "static/shop_carR.png",
+        "text": "购物"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/meB.png",
+        "selectedIconPath": "static/meR.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

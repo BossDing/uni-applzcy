@@ -1,0 +1,1 @@
+<import src="/pages/sigin/sigin.vue.wxml" /><template is="c4da40f0" data="{{ ...$root['0'], $root }}"/>

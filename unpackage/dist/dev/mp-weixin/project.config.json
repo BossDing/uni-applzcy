@@ -1,0 +1,66 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"minified": true,
+		"postcss": true,
+		"es6": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "",
+	"appid": "touristappid",
+	"projectname": "%E5%88%9B%E8%81%94%E4%BC%97%E7%9B%8A",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"name": "Mywallet",
+					"id": 0,
+					"pathName": "pages/account/account"
+				},
+				{
+					"name": "ShoppingCar",
+					"id": 1,
+					"pathName": "pages/shoppingCar/shoppingCar"
+				},
+				{
+					"name": "nearbyBusiness",
+					"id": 2,
+					"pathName": "pages/nearbyBusiness/nearbyBusiness"
+				},
+				{
+					"name": "brand",
+					"id": 3,
+					"pathName": "pages/brand-pages/brand-pages"
+				},
+				{
+					"name": "zhuc",
+					"id": 4,
+					"pathName": "pages/register/register"
+				},
+				{
+					"name": "xieyi",
+					"id": 5,
+					"pathName": "pages/protocol/protocol"
+				}
+			]
+		}
+	}
+}

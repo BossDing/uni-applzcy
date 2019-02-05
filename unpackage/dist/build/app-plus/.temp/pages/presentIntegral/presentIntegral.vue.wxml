@@ -1,0 +1,33 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<template name="4ac58d12">
+  <view class="_view data-v-73abbf17 content">
+    <view class="_view data-v-73abbf17 status-contents">
+      <view class="_view data-v-73abbf17 status top-view"></view>
+    </view>
+    <view class="_view data-v-73abbf17 title-box" bindtap="handleProxy" data-eventid="{{'QHL-0'}}" data-comkey="{{$k}}">
+      <template type="arrowleft" size="28" color="#333" data="{{...$root['0'], ...$root[$kk+'H5J-0'],$root}}" is="391d5dee"></template>
+      <text class="_text data-v-73abbf17 title">赠送积分</text>
+    </view>
+    <view class="_view data-v-73abbf17 buy-box">
+      <view class="_view data-v-73abbf17 pay-method">
+        <text class="_text data-v-73abbf17 num">赠送数量</text>
+        <text class="_text data-v-73abbf17 num_">请输入赠送的积分数量</text>
+      </view>
+      <view class="_view data-v-73abbf17 buy-count">
+        <text class="_text data-v-73abbf17 num">赠送到</text>
+        <text class="_text data-v-73abbf17 num_">请输入收取积分的账户手机号</text>
+      </view>
+      <view class="_view data-v-73abbf17 need-money">
+        <text class="_text data-v-73abbf17 need">消费金额</text>
+        <view class="_view data-v-73abbf17 input-box">
+          <text class="_text data-v-73abbf17 symbol">￥</text>
+          <input type="text" value="" placeholder="100.00" class="_input data-v-73abbf17" />
+        </view>
+      </view>
+      <text class="_text data-v-73abbf17 more">本次最多可赠送100000积分</text>
+    </view>
+    <view class="_view data-v-73abbf17 confirm-btn">
+      <text class="_text data-v-73abbf17">确认赠送</text>
+    </view>
+  </view>
+</template>

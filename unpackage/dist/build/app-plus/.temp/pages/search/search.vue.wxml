@@ -1,0 +1,33 @@
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<template name="56ced23e">
+  <view class="_view data-v-e13043f2 content">
+    <view class="_view data-v-e13043f2 title-box">
+      <view class="_view data-v-e13043f2 search-box" bindtap="handleProxy" data-eventid="{{'bIq-0'}}" data-comkey="{{$k}}">
+        <template type="search" size="30" color="#8e8e8e" data="{{...$root['0'], ...$root[$kk+'RO8-0'],$root}}" is="391d5dee"></template>
+        <input type="text" value="" placeholder="在千万海外商品中搜索" class="_input data-v-e13043f2 input" />
+      </view>
+      <text class="_text data-v-e13043f2 cancel" bindtap="handleProxy" data-eventid="{{'qpD-1'}}" data-comkey="{{$k}}">取消</text>
+    </view>
+    <view class="_view data-v-e13043f2 search-content">
+      <view class="_view data-v-e13043f2 search-title">
+        <text class="_text data-v-e13043f2 search-title-text">最近搜索</text>
+        <template type="trash" size="30" color="#8e8e8e" data="{{...$root['0'], ...$root[$kk+'2ki-1'],$root}}" is="391d5dee"></template>
+        <view class="_view data-v-e13043f2 content-text" wx:key="historyIndex" key="{{historyIndex}}" wx:for="{{history}}" wx:for-index="historyIndex" wx:for-item="item">
+          <text class="_text data-v-e13043f2 history">{{item}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-e13043f2 search-title">
+        <text class="_text data-v-e13043f2 search-title-text">搜索发现</text>
+        <view class="_view data-v-e13043f2 content-text" wx:key="findIndex" key="{{findIndex}}" wx:for="{{find}}" wx:for-index="findIndex" wx:for-item="item">
+          <text class="_text data-v-e13043f2 find">{{item}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-e13043f2 search-title">
+        <text class="_text data-v-e13043f2 search-title-text">常用分类</text>
+        <view class="_view data-v-e13043f2 content-text classification-box" wx:key="classificationIndex" key="{{classificationIndex}}" wx:for="{{classification}}" wx:for-index="classificationIndex" wx:for-item="item">
+          <text class="_text data-v-e13043f2 classification">{{item}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
